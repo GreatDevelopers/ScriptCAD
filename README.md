@@ -1,37 +1,100 @@
-## Welcome to GitHub Pages
+# Solid Scripting
 
-You can use the [editor on GitHub](https://github.com/GreatDevelopers/Python-Course/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+*Testing and Consultancy Cell Testing and Consultancy Cell (TCC)
+in association with
+Great Developers (GD) & Great Civil Engineers (GCE)
+presents
+ capsule course, GNDEC presents a unique way to learn more in less time, less effort and less fee.*
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Less Time, More Learning
 
-```markdown
-Syntax highlighted code block
+Welcome all!
 
-# Header 1
-## Header 2
-### Header 3
+This is a high powered capsule course meant to teach you a wide range of practical stuff in very little time using a computer.
 
-- Bulleted
-- List
+By joining this course you will learn :
 
-1. Numbered
-2. List
+1. Computer Programming: Python
+1. Game development
+1. Solid Modeling: FreeCAD
+1. Engineering Drawing: Way to produce 2D drawings.
+1. And much more ...
 
-**Bold** and _Italic_ and `Code` text
+And all of this in mere 6 hours that will be spread over a week for your comfort.
 
-[Link](url) and ![Image](src)
-```
+**Dates :** 9/10/18 to 13/10/18
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**Venue :** TCC Seminar Hall
 
-### Jekyll Themes
+**Fee:** Flexible
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GreatDevelopers/Python-Course/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+**After-course support:** Life time
 
-### Support or Contact
+**Attendance:** Optional*
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Recommended for every smart engineer who wish to empower herself/himself to produce 3D solid models automatically.
+
+## Course Instructor
+
+**Prof. Dr. Hardeep Singh Rai**
+
+Dean (TCC)
+
+(more achievements here)
+
+## Prerequisites
+
+Well, we are ready to give you all that we have, but then we also expect somethings from you which are :
+ 
+* Basic use of computer (Typing and printing document, Internet browsing)
+* Exposure to any Computer Language (can be compensated if they opt for Monday session)
+* **Attitude of self-learner**
+
+## Course Schedule
+
+The 6 hours will be spread over the week like this :
+
+### 8th Oct [Monday] {Optional Extra Dish}
+
+**4 pm to 5 pm**
+
+Basics of python - For those who don’t know even a single programming language
+
+- Program structure
+- Data type
+- Expressions
+- Arrays
+- Control Structure and
+- Functions
+
+### 9th Oct [Tuesday]
+
+**4 pm to 5 pm**
+
+- Introduction to 3D Solid Modelling software (FreeCAD)
+- Making 3D Bishop (Chess Piece) through GUI
+
+### 11th Oct [Thursday]
+
+**4 pm to 5pm**
+
+- Introduction to macro in freeCAD
+- Making the python script to automatically create Bishop/House of given specifications.
+
+### 13th Oct [Saturday] 
+
+**9 am to 1 pm**
+
+- Making ED sheets using python in FreeCAD.
+- Creating solid models, mechanical parts like gears and buildings.
+
+## Fee Structure
+
+ Student Type | Without Certificate | With Certificate
+--- | --- | ---
+GNDEC Students | Rs 300 | Rs 600
+Other Students | Rs 1500 | Rs 3000
+
+*Conditions apply
