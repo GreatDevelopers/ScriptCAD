@@ -1,11 +1,7 @@
 # Solid Scripting
 
 
-*Testing and Consultancy Cell Testing and Consultancy Cell (TCC)
-in association with
-Great Developers (GD) & Great Civil Engineers (GCE)
-presents
- capsule course, GNDEC presents a unique way to learn more in less time, less effort and less fee.*
+*Testing and Consultancy Cell (TCC), GNDEC ,in association with Great Developers (GD) & Great Civil Engineers (GCE), presents a unique way to learn more in less time, less effort and less fee.*
 
 
 ## Less Time, More Learning
@@ -28,9 +24,9 @@ And all of this in mere 6 hours that will be spread over a week for your comfort
 
 **Venue :** TCC Seminar Hall
 
-**Fee:** Flexible
+**Fee:** Flexible ( Scroll down for complete fee structure )
 
-**After-course support:** Life time
+**After-course support:** Life time*
 
 **Attendance:** Optional*
 
@@ -92,9 +88,11 @@ Basics of python - For those who don’t know even a single programming language
 
 ## Fee Structure
 
- Student Type | Without Certificate | With Certificate
---- | --- | ---
-GNDEC Students | Rs 300 | Rs 600
-Other Students | Rs 1500 | Rs 3000
+ Student Type | Certificate preference | Course Fee | + Basic Python Course | After Course Support | Total Payable Fee | Concession Granted
+--- | --- | --- | --- | --- | --- | --- |
+GNDEC Students | Without Certificate | Rs 600 | + Rs 400 | 1 month | Rs 1000 | 80% | 
+               | With Certificate |  Rs 1500 | + Rs 300 | 2 month | Rs 1800 | 64% |
+Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 36% |
+               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
 
 *Conditions apply
