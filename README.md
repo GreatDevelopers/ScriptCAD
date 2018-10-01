@@ -1,4 +1,4 @@
-# Solid Scripting
+# Solid Modelling with Python
 
 
 *Testing and Consultancy Cell (TCC), GNDEC ,in association with Great Developers (GD) & Great Civil Engineers (GCE), presents a unique way to learn more in less time, less effort and less fee.*
@@ -56,7 +56,7 @@ The 6 hours will be spread over the week like this :
 
 **4 pm to 5 pm**
 
-Basics of python - For those who don’t know even a single programming language
+Basics of python - For those who don’t know even a single programming language           ![Python](images/py.jpg)
 
 - Program structure
 - Data type
@@ -69,21 +69,21 @@ Basics of python - For those who don’t know even a single programming language
 
 **4 pm to 5 pm**
 
-- Introduction to 3D Solid Modelling software (FreeCAD)
+- Introduction to 3D Solid Modelling software (FreeCAD)					 ![Bishop](images/Bishop.png)
 - Making 3D Bishop (Chess Piece) through GUI
 
 ### 11th Oct [Thursday]
 
 **4 pm to 5pm**
 
-- Introduction to macro in freeCAD
+- Introduction to macro in freeCAD							 ![Hello World](images/python_hello.png)
 - Making the python script to automatically create Bishop/House of given specifications.
 
 ### 13th Oct [Saturday] 
 
 **9 am to 1 pm**
 
-- Making ED sheets using python in FreeCAD.
+- Making ED sheets using python in FreeCAD.						 ![Python](images/topGear.png)
 - Creating solid models, mechanical parts like gears and buildings.
 
 ## Fee Structure
