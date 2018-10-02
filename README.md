@@ -1,6 +1,8 @@
+<style 
 <link rel="stylesheet" href="style/intro.css">
 
 <div class="First">
+</style>
 
 # Solid Modelling with Python
 
@@ -52,9 +54,10 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 * Exposure to any Computer Language (can be compensated if they opt for Monday session)
 * **Attitude of self-learner**
 
-</div>
+<style </div>
 
 <div class = "Second">
+</style>
 
 ## Course Schedule
 
@@ -105,4 +108,4 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 
 \*Conditions apply
 
-</div>
+<style </div>>
