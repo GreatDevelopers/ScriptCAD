@@ -58,6 +58,8 @@ The 6 hours will be spread over the week like this :
 
 ### 8th Oct [Monday] {Optional Extra Dish}
 
+<img style="float: right" src="https://github.com/SurajDadral/ScriptCAD/blob/master/images/bishop.jpg">
+
 **4 pm to 5 pm**
 
 Basics of python - For those who don’t know even a single programming language           
