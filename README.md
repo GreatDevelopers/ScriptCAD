@@ -1,6 +1,5 @@
 <link rel = "stylesheet" href = "style/intro.css">
 
-
 # Solid Modelling with Python
 
 
@@ -58,10 +57,6 @@ The 6 hours will be spread over the week like this :
 
 ### 8th Oct [Monday] {Optional Extra Dish}
 
-<img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
-
-<div markdown="1">
-
 **4 pm to 5 pm**
 
 Basics of python - For those who don’t know even a single programming language           
@@ -73,14 +68,18 @@ Basics of python - For those who don’t know even a single programming language
 - Control Structure and
 - Functions
 
-</div>
-
 ### 9th Oct [Tuesday]
+
+<img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
+
+<div markdown="1" style="clear: right">
 
 **4 pm to 5 pm**
 
 - Introduction to 3D Solid Modelling software (FreeCAD)					 
 - Making 3D Bishop (Chess Piece) through GUI
+
+</div>
 
 ### 11th Oct [Thursday]
 
