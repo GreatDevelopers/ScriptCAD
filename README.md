@@ -1,4 +1,4 @@
-<link rel = "stylesheet" href = "https://github.com/SurajDadral/ScriptCAD/blob/master/style/intro.css">
+<link rel = "stylesheet" href = "style/intro.css">
 
 
 # Solid Modelling with Python
@@ -59,10 +59,10 @@ The 6 hours will be spread over the week like this :
 ### 8th Oct [Monday] {Optional Extra Dish}
 
 <figure>
-<img src="https://github.com/SurajDadral/ScriptCAD/blob/master/images/bishop.jpg" style="float: right" alt="Bishop Image">
+<img src="images/bishop.jpg" style="float: right" alt="Bishop Image">
 </figure>
 
-<div style="clear: right">
+<div>
 
 **4 pm to 5 pm**
 
