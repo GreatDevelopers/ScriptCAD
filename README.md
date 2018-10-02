@@ -1,8 +1,8 @@
-<style 
-<link rel="stylesheet" href="style/intro.css">
+---
+---
+<link rel="stylesheet" href="style/intro.scss">
 
 <div class="First">
-</style>
 
 # Solid Modelling with Python
 
@@ -54,10 +54,9 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 * Exposure to any Computer Language (can be compensated if they opt for Monday session)
 * **Attitude of self-learner**
 
-<style </div>
+</div>
 
 <div class = "Second">
-</style>
 
 ## Course Schedule
 
