@@ -89,7 +89,7 @@ Basics of python - For those who don’t know even a single programming language
 **4 pm to 5 pm**
 
 - Introduction to 3D Solid Modelling software (FreeCAD)
-- Making 3D Bishop (Chess Piece) through GUI						 
+- Making 3D Bishop (Chess Piece) through GUI
 
 </div>
 
