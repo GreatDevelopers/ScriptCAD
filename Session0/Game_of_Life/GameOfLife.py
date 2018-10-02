@@ -33,12 +33,12 @@ def printGen(cols, rows, array, genNo):
     for i in range(rows):
         for j in range(cols):
             if array[i][j] == -1:
-                print("#", end=" ")
+                print("#", end="")
             elif array[i][j] == 1:
-                print(".", end=" ")
+                print("O", end="")
             else:
-                print(" ", end=" ")
-        print("\n")
+                print(" ", end="")
+        print("")
 
 #---------------------------------------------------------------------------
 
