@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="style/intro.css">
 
-#<div class="First">
+<div class="First">
 
 # Solid Modelling with Python
 
@@ -52,7 +52,7 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 * Exposure to any Computer Language (can be compensated if they opt for Monday session)
 * **Attitude of self-learner**
 
-#</div>
+</div>
 
 <div class = "Second">
 
