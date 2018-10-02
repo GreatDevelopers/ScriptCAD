@@ -1,4 +1,4 @@
-<link rel = "stylesheet" href = "style/intro.css">
+<link rel = "stylesheet" href = "https://github.com/SurajDadral/ScriptCAD/blob/master/style/intro.css">
 
 
 # Solid Modelling with Python
