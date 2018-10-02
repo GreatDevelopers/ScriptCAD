@@ -106,7 +106,7 @@ Basics of python - For those who don’t know even a single programming language
 
 **9 am to 1 pm**
 
-- Making ED sheets using python in FreeCAD.						 
+- Making ED sheets using python in FreeCAD.
 - Creating solid models, mechanical parts like gears and buildings.
 
 </div>
