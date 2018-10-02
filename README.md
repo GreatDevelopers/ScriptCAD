@@ -1,6 +1,4 @@
----
----
-<link rel="stylesheet" href="style/intro.scss">
+<link rel="stylesheet" href="style/intro.css">
 
 <div class="First">
 
