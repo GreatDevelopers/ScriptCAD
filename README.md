@@ -68,7 +68,7 @@ Basics of python - For those who don’t know even a single programming language
 - Control Structure and
 - Functions
 
-<div markdown="1">
+<div markdown="1" overflow="auto">
 
 ### 9th Oct [Tuesday]
 
