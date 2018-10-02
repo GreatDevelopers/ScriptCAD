@@ -100,10 +100,16 @@ Basics of python - For those who don’t know even a single programming language
 
 ### 13th Oct [Saturday] 
 
+<img src="images/topGear.png" alt="topGear" class="topGear">
+
+<div markdown="1">
+
 **9 am to 1 pm**
 
 - Making ED sheets using python in FreeCAD.						 
 - Creating solid models, mechanical parts like gears and buildings.
+
+</div>
 
 ## Fee Structure
 
