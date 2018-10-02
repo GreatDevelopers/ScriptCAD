@@ -4,7 +4,7 @@
 # Solid Modelling with Python
 
 
-*Testing and Consultancy Cell (TCC), GNDEC ,in association with Great Developers (GD) & Great Civil Engineers (GCE), presents a unique way to learn more in less time, less effort and less fee.*
+*Testing and Consultancy Cell (TCC), GNDEC, in association with Great Developers (GD) & Great Civil Engineers (GCE), presents a unique way to learn more in less time, less effort and less fee.*
 
 
 ## Less Time, More Learning
@@ -41,7 +41,6 @@ Recommended for every smart engineer who wish to empower herself/himself to prod
 
 Dean (TCC)
 
-(more achievements here)
 
 ## Prerequisites
 
