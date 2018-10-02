@@ -55,6 +55,8 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 
 The 6 hours will be spread over the week like this :
 
+<div markdown="1">
+
 ### 8th Oct [Monday] {Optional Extra Dish}
 
 <img src="images/GameOfLife.jpg" alt="GameOfLife" class="GameOfLife">
@@ -74,6 +76,10 @@ Basics of python - For those who don’t know even a single programming language
 
 </div>
 
+</div>
+
+<div markdown="1">
+
 ### 9th Oct [Tuesday]
 
 <img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
@@ -87,12 +93,16 @@ Basics of python - For those who don’t know even a single programming language
 
 </div>
 
+</div>
+
 ### 11th Oct [Thursday]
 
 **4 pm to 5pm**
 
 - Introduction to macro in freeCAD
 - Making the python script to automatically create Bishop/House of given specifications.
+
+<div markdown="1">
 
 ### 13th Oct [Saturday] 
 
@@ -104,6 +114,8 @@ Basics of python - For those who don’t know even a single programming language
 
 - Making ED sheets using python in FreeCAD.
 - Creating solid models, mechanical parts like gears and buildings.
+
+</div>
 
 </div>
 
