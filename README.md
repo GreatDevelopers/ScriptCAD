@@ -55,11 +55,9 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 
 The 6 hours will be spread over the week like this :
 
-<div markdown="1">
-
 ### 8th Oct [Monday] {Optional Extra Dish}
 
-<img src="images/GameOfLife.jpg" alt="GameOfLife" class="GameOfLife">
+<div markdown="1" style="display: flex">
 
 <div markdown="1">
 
@@ -76,13 +74,15 @@ Basics of python - For those who don’t know even a single programming language
 
 </div>
 
+<div>
+<img src="images/GameOfLife.jpg" alt="GameOfLife" class="GameOfLife">
 </div>
 
-<div markdown="1">
+</div>
 
 ### 9th Oct [Tuesday]
 
-<img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
+<div markdown="1" style="display: flex">
 
 <div markdown="1">
 
@@ -91,6 +91,10 @@ Basics of python - For those who don’t know even a single programming language
 - Introduction to 3D Solid Modelling software (FreeCAD)
 - Making 3D Bishop (Chess Piece) through GUI
 
+</div>
+
+<div>
+<img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
 </div>
 
 </div>
@@ -102,11 +106,9 @@ Basics of python - For those who don’t know even a single programming language
 - Introduction to macro in freeCAD
 - Making the python script to automatically create Bishop/House of given specifications.
 
-<div markdown="1">
-
 ### 13th Oct [Saturday] 
 
-<img src="images/topGear.png" alt="topGear" class="topGear">
+<div markdown="1" style="display: flex">
 
 <div markdown="1">
 
@@ -115,6 +117,10 @@ Basics of python - For those who don’t know even a single programming language
 - Making ED sheets using python in FreeCAD.
 - Creating solid models, mechanical parts like gears and buildings.
 
+</div>
+
+<div>
+<img src="images/topGear.png" alt="topGear" class="topGear">
 </div>
 
 </div>
@@ -129,5 +135,6 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 "               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
 
 \*Conditions apply
+
 
 

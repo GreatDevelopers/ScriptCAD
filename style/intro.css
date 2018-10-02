@@ -16,27 +16,25 @@
         background-color: white;
 }
 
-.bishop
-{
-	float: right;
-	width: 40%;
-	height: 50%;
-	border: 1px solid black;
-	background-color: white;
-}
 .GameOfLife
 {
 	float: right;
-	width: 40%;
-	height: 40%;
+	width: 90%;
+	border: 1px solid black;
+	background-color: white;
+}
+
+.bishop
+{
+	float: right;
+	width: 80%;
 	border: 1px solid black;
 	background-color: white;
 }
 .topGear
 {
 	float: right;
-	width: 40%;
-	height: 40%;
+	width: 80%;
 	border: 1px solid black;
 	background-color: white;
 }
