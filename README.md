@@ -1,3 +1,7 @@
+<link rel="stylesheet" href="style/intro.css">
+
+<div class="First">
+
 # Solid Modelling with Python
 
 
@@ -48,6 +52,10 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 * Exposure to any Computer Language (can be compensated if they opt for Monday session)
 * **Attitude of self-learner**
 
+</div>
+
+<div class = "Second">
+
 ## Course Schedule
 
 The 6 hours will be spread over the week like this :
@@ -95,4 +103,6 @@ GNDEC Students | Without Certificate | Rs 600 | + Rs 400 | 1 month | Rs 1000 | 8
 Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 36% |
 "               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
 
-*Conditions apply
+\*Conditions apply
+
+</div>
