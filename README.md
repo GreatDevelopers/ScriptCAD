@@ -68,6 +68,8 @@ Basics of python - For those who don’t know even a single programming language
 - Control Structure and
 - Functions
 
+<div markdown="1">
+
 ### 9th Oct [Tuesday]
 
 <img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
@@ -78,6 +80,8 @@ Basics of python - For those who don’t know even a single programming language
 
 - Introduction to 3D Solid Modelling software (FreeCAD)
 - Making 3D Bishop (Chess Piece) through GUI						 
+
+</div>
 
 </div>
 
