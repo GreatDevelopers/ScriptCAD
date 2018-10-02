@@ -76,7 +76,7 @@ Basics of python - For those who don’t know even a single programming language
 
 **4 pm to 5 pm**
 
-- Introduction to 3D Solid Modelling software (FreeCAD)					 
+- Introduction to 3D Solid Modelling software (FreeCAD)
 - Making 3D Bishop (Chess Piece) through GUI
 
 </div>
@@ -85,7 +85,7 @@ Basics of python - For those who don’t know even a single programming language
 
 **4 pm to 5pm**
 
-- Introduction to macro in freeCAD							 
+- Introduction to macro in freeCAD
 - Making the python script to automatically create Bishop/House of given specifications.
 
 ### 13th Oct [Saturday] 
