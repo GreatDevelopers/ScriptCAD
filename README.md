@@ -58,9 +58,7 @@ The 6 hours will be spread over the week like this :
 
 ### 8th Oct [Monday] {Optional Extra Dish}
 
-<figure>
-<img src="images/bishop.jpg" style="float: right" width="40%" alt="Bishop Image">
-</figure>
+<img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
 
 <div markdown="1">
 
