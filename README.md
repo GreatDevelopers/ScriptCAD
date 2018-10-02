@@ -60,6 +60,8 @@ The 6 hours will be spread over the week like this :
 
 <img style="float: right" src="https://github.com/SurajDadral/ScriptCAD/blob/master/images/bishop.jpg">
 
+<div style="clear: right">
+
 **4 pm to 5 pm**
 
 Basics of python - For those who don’t know even a single programming language           
@@ -70,6 +72,8 @@ Basics of python - For those who don’t know even a single programming language
 - Arrays
 - Control Structure and
 - Functions
+
+</div>
 
 ### 9th Oct [Tuesday]
 
