@@ -72,7 +72,7 @@ Basics of python - For those who don’t know even a single programming language
 
 <img src="images/bishop.jpg" alt="Bishop Image" class="bishop">
 
-<div markdown="1" style="clear: right">
+<div markdown="1">
 
 **4 pm to 5 pm**
 
