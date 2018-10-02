@@ -1,6 +1,6 @@
-<link rel="stylesheet" href="style/intro.css">
+<link rel = "stylesheet" href = "style/intro.css">
 
-<div class="First">
+<div class = "First">
 
 # Solid Modelling with Python
 
