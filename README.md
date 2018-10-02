@@ -1,6 +1,5 @@
 <link rel = "stylesheet" href = "style/intro.css">
 
-<div class = "First">
 
 # Solid Modelling with Python
 
@@ -52,9 +51,6 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 * Exposure to any Computer Language (can be compensated if they opt for Monday session)
 * **Attitude of self-learner**
 
-</div>
-
-<div class = "Second">
 
 ## Course Schedule
 
@@ -77,21 +73,21 @@ Basics of python - For those who don’t know even a single programming language
 
 **4 pm to 5 pm**
 
-- Introduction to 3D Solid Modelling software (FreeCAD)					 ![Bishop](images/Bishop.png)
+- Introduction to 3D Solid Modelling software (FreeCAD)					 ![Bishop](images/Bishop.png){.pic}
 - Making 3D Bishop (Chess Piece) through GUI
 
 ### 11th Oct [Thursday]
 
 **4 pm to 5pm**
 
-- Introduction to macro in freeCAD							 ![Hello World](images/python_hello.png)
+- Introduction to macro in freeCAD							 ![Hello World](images/python_hello.png){.pic}
 - Making the python script to automatically create Bishop/House of given specifications.
 
 ### 13th Oct [Saturday] 
 
 **9 am to 1 pm**
 
-- Making ED sheets using python in FreeCAD.						 ![Python](images/topGear.png)
+- Making ED sheets using python in FreeCAD.						 ![Python](images/topGear.png){.pic}
 - Creating solid models, mechanical parts like gears and buildings.
 
 ## Fee Structure
@@ -105,4 +101,4 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 
 \*Conditions apply
 
-</div>
+
