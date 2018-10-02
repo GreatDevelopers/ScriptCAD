@@ -62,7 +62,7 @@ The 6 hours will be spread over the week like this :
 <img src="images/bishop.jpg" style="float: right" width="40%" alt="Bishop Image">
 </figure>
 
-<span style="display: block">
+<div markdown="1">
 
 **4 pm to 5 pm**
 
@@ -75,7 +75,7 @@ Basics of python - For those who don’t know even a single programming language
 - Control Structure and
 - Functions
 
-</span>
+</div>
 
 ### 9th Oct [Tuesday]
 
