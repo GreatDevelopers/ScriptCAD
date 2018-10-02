@@ -60,7 +60,7 @@ The 6 hours will be spread over the week like this :
 
 **4 pm to 5 pm**
 
-Basics of python - For those who don’t know even a single programming language           ![Python](images/py.jpg)
+Basics of python - For those who don’t know even a single programming language           <![Python](images/py.jpg)>
 
 - Program structure
 - Data type
@@ -73,14 +73,14 @@ Basics of python - For those who don’t know even a single programming language
 
 **4 pm to 5 pm**
 
-- Introduction to 3D Solid Modelling software (FreeCAD)					 ![Bishop](images/Bishop.png){.pic}
+- Introduction to 3D Solid Modelling software (FreeCAD)					 <![Bishop](images/Bishop.png){.pic}>
 - Making 3D Bishop (Chess Piece) through GUI
 
 ### 11th Oct [Thursday]
 
 **4 pm to 5pm**
 
-- Introduction to macro in freeCAD							 ![Hello World](images/python_hello.png){.pic}
+- Introduction to macro in freeCAD							 <![Hello World](images/python_hello.png){.pic}>
 - Making the python script to automatically create Bishop/House of given specifications.
 
 ### 13th Oct [Saturday] 
