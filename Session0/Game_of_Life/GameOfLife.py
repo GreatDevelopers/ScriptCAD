@@ -26,7 +26,7 @@ def initGrid(cols, rows, array):
 #---------------------------------------------------------------------------
     
 def printGen(cols, rows, array, genNo):
-    os.system("cls")
+    os.system("clear")
 
     print("Game of Life -- Generation " + str(genNo + 1))
     
@@ -67,22 +67,3 @@ def processNeighbours(x, y, array):
 
 #---------------------------------------------------------------------------
 ############################################################################
-#---------------------------------------------------------------------------
-
-ROWS = 11
-COLS = 39
-GENERATIONS = 100
-DELAY = 0.2
-
-thisGen = []
-nextGen = []
-
-initGrid(COLS, ROWS, thisGen)
-initGrid(COLS, ROWS, nextGen)
-
-for gens in range(GENERATIONS):
-    printGen(COLS, ROWS, thisGen, gens)
-    processNextGen(COLS, ROWS, thisGen, nextGen)
-    time.sleep(DELAY)
-    thisGen, nextGen = nextGen, thisGen
-input("Finished. Press <return> to quit.")
