@@ -58,7 +58,9 @@ The 6 hours will be spread over the week like this :
 
 ### 8th Oct [Monday] {Optional Extra Dish}
 
-<img style="float: right" src="https://github.com/SurajDadral/ScriptCAD/blob/master/images/bishop.jpg">
+<figure>
+<img src="https://github.com/SurajDadral/ScriptCAD/blob/master/images/bishop.jpg" style="float: right" alt="Bishop Image">
+</figure>
 
 <div style="clear: right">
 
