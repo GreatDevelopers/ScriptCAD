@@ -26,7 +26,7 @@ def initGrid(cols, rows, array):
 #---------------------------------------------------------------------------
     
 def printGen(cols, rows, array, genNo):
-    os.system("cls")
+    os.system("clear")
 
     print("Game of Life -- Generation " + str(genNo + 1))
     
