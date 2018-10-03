@@ -9,7 +9,7 @@
 # Solid Modelling with Python
 
 
-*Testing and Consultancy Cell (TCC), GNDEC ,in association with Great Developers (GD) & Great Civil Engineers (GCE), presents a unique way to learn more in less time, less effort and less fee.*
+*Testing and Consultancy Cell (TCC), GNDEC, in association with Great Developers (GD) & Great Civil Engineers (GCE), presents a unique way to learn more in less time, less effort and less fee.*
 
 
 ## Less Time, More Learning
@@ -46,7 +46,6 @@ Recommended for every smart engineer who wish to empower herself/himself to prod
 
 Dean (TCC)
 
-(more achievements here)
 
 ## Prerequisites
 
@@ -146,6 +145,9 @@ GNDEC Students | Without Certificate | Rs 600 | + Rs 400 | 1 month | Rs 1000 | 8
 "               | With Certificate |  Rs 1500 | + Rs 300 | 2 month | Rs 1800 | 64% |
 Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 36% |
 "               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
+
+
+**[Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)**
 
 \*Conditions apply
 
