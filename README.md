@@ -1,5 +1,7 @@
 <link rel = "stylesheet" href = "style/intro.css">
 
+<div markdown="1" class="page">
+
 <img src="images/py_back.png" class="py_back">
 
 <div markdown="1" class="First">
@@ -146,5 +148,7 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 "               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
 
 \*Conditions apply
+
+</div>
 
 </div>
