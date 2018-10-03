@@ -57,7 +57,9 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 
 </div>
 
-<div markdown="1" class="Second" background="images/py_back.png">
+<div markdown="1" class="Second">
+
+<img src="images/freecad.png" class="freecad">
 
 ## Course Schedule
 
