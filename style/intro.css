@@ -5,6 +5,12 @@ body
 	aligns-items: stretch;
 }
 
+.page
+{
+	display: flex;
+	flex-direction: column;
+}
+
 .First 
 { background-image : url("../images/py_back.png");
 	align : center;
