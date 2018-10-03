@@ -1,6 +1,6 @@
 <link rel = "stylesheet" href = "style/intro.css">
 
-<div markdown="1" style="display: flex; flex-direction: column">
+<div markdown="1" class="page">
 
 <div markdown="1" class="First">
 
