@@ -142,7 +142,7 @@ Basics of python - For those who don’t know even a single programming language
 </div>
 
 <div>
-<img src="images/topGear.png" alt="topGear" class="topGear">
+<img src="images/crankshaft.jpg" alt="crank" class="topGear">
 </div>
 
 </div>
@@ -169,4 +169,3 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 
 </div>
 
-[Session0](session0/sessioon0.html)
