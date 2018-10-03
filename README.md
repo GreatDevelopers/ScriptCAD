@@ -2,9 +2,9 @@
 
 <div markdown="1" class="page">
 
-<img src="images/py_back.png" class="py_back">
-
 <div markdown="1" class="First">
+
+<img src="images/py_back.png" class="py_back">
 
 # Solid Modelling with Python
 
