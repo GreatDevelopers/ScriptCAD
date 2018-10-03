@@ -134,7 +134,7 @@ Basics of python - For those who don’t know even a single programming language
 
 </div>
 
-<div markdown="1">
+<div markdown="1" style="overflow: scroll">
 
 ## Fee Structure
 
