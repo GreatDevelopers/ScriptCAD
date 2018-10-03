@@ -1,5 +1,6 @@
 .First 
 { background-image : url("../images/py_back.png");
+	align : center;
   opacity : 0.5;
 }
 
