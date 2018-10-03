@@ -12,10 +12,8 @@ body
 
 .First 
 {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-/*	align : center;*/
+/*	position: absolute;
+	align : center;*/
 }
 
 .py_back
