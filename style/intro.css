@@ -51,8 +51,9 @@ body
 {
 	float: right;
 	width: 150%;
-	padding: 0% 15%;
-	border: 2px solid white;
+	top-margin: 5%;
+	border: 2px solid black;
+	background-color: white;
 }
 
 .topGear
