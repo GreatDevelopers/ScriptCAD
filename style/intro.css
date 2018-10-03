@@ -13,15 +13,13 @@ body
 .First:after
 {
 	background-image: url("../images/python-logo.png");
-	opacity: 0.5";
+	opacity: 0.3;
 	content: ' ';
     	display: block;
     	position: absolute;
     	left: 0;
-	right 0;
    	top: 0;
-	bottom: 0;
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -34,14 +32,12 @@ body
 .Second:after
 {
 	background-image : url("../images/freecad.png");
-	opacity: 0.5";
+	opacity: 0.3;
 	content: ' ';
     	display: block;
     	position: absolute;
     	left: 0;
-	right 0;
    	top: 0;
-	bottom: 0;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
