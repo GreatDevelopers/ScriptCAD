@@ -109,12 +109,24 @@ Basics of python - For those who don’t know even a single programming language
 
 </div>
 
+<div markdown="1" style="display: flex">
+
+<div markdown="1">
+
 ### 11th Oct [Thursday]
 
 **4 pm to 5pm**
 
 - Introduction to macro in freeCAD
 - Making the python script to automatically create Bishop/House of given specifications.
+
+</div>
+
+<div>
+<img src="images/macro.png" alt="Macro in FreeCAD" class="macro">
+</div>
+
+</div>
 
 ### 13th Oct [Saturday] 
 
