@@ -54,7 +54,7 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 
 </div>
 
-<div markdown="1" class=Second">
+<div markdown="1" class="Second">
 
 ## Course Schedule
 
