@@ -153,4 +153,4 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 
 </div>
 
-[Session0](sessioon0/.html)
+[Session0](session0/sessioon0.html)
