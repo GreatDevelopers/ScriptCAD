@@ -4,12 +4,7 @@ body
 	flex-direction: column;
 }
 
-/*.page
-{
-	position: relative;
-	align : center;
-}*/
-
+/* Properties for Background*/
 .First 
 {
 	position: relative;
@@ -23,19 +18,6 @@ body
 	opacity: 0.3
 }
 
-/*.First:after
-{
-	background-image: url("../images/python-logo.png");
-	opacity: 0.3;
-	content: ' ';
-    	display: block;
-    	position: absolute;
-    	background-position: center;
-	background-attachment: scroll;
-	background-size: cover;
-	background-repeat: no-repeat;
-}*/
-
 .Second
 { 
 	position: relative;
@@ -48,18 +30,7 @@ body
 	opacity: 0.3
 }
 
-/*.Second:after
-{
-	background-image : url("../images/freecad.png");
-	opacity: 0.3;
-	content: ' ';
-    	display: block;
-    	position: absolute;
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-}*/
-
+/* Properties for images */
 .GameOfLife
 {
 	float: right;
@@ -75,6 +46,15 @@ body
 	border: 1px solid black;
 	background-color: white;
 }
+
+.macro
+{
+	float: right;
+	width: 80%;
+	border: 2px solid black;
+	background-color: white;
+}
+
 .topGear
 {
 	float: right;
