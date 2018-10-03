@@ -10,7 +10,12 @@ body
 	align : center;
 }
 
-.First:after
+.py_back
+{
+	z-index: -1;
+	opacity: 0.3
+}
+/*.First:after
 {
 	background-image: url("../images/python-logo.png");
 	opacity: 0.3;
@@ -21,7 +26,7 @@ body
 	background-attachment: scroll;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+}*/
 
 .Second
 { 
@@ -29,7 +34,7 @@ body
 	align : center;
 }
 
-.Second:after
+/*.Second:after
 {
 	background-image : url("../images/freecad.png");
 	opacity: 0.3;
@@ -39,7 +44,7 @@ body
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-}
+}*/
 
 .GameOfLife
 {
