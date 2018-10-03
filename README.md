@@ -1,5 +1,7 @@
 <link rel = "stylesheet" href = "style/intro.css">
 
+<div markdown="1" class="First">
+
 # Solid Modelling with Python
 
 
@@ -50,6 +52,9 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 * Exposure to any Computer Language (can be compensated if they opt for Monday session)
 * **Attitude of self-learner**
 
+</div>
+
+<div markdown="1" class=Second">
 
 ## Course Schedule
 
@@ -121,6 +126,8 @@ Basics of python - For those who don’t know even a single programming language
 
 <div>
 <img src="images/topGear.png" alt="topGear" class="topGear">
+</div>
+
 </div>
 
 </div>
