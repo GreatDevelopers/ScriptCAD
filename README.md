@@ -130,8 +130,6 @@ Basics of python - For those who don’t know even a single programming language
 
 </div>
 
-</div>
-
 ## Fee Structure
 
  Student Type | Certificate preference | Course Fee | + Basic Python Course | After Course Support | Total Payable Fee | Concession Granted
@@ -143,5 +141,4 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 
 \*Conditions apply
 
-
-
+</div>
