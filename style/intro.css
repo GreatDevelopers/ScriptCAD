@@ -12,7 +12,7 @@ body
 
 .First:after
 {
-	background: url("../images/py_back.png");
+	background-image: url("../images/py_back.png");
 	opacity: 0.5;
 	content: ' ';
     	display: block;
