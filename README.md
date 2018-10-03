@@ -2,7 +2,7 @@
 
 <div markdown="1" class="page">
 
-<div markdown="1" class="First">
+<div markdown="1" class="First" background-image="images/py_back.png">
 
 # Solid Modelling with Python
 
@@ -56,7 +56,7 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 
 </div>
 
-<div markdown="1" class="Second">
+<div markdown="1" class="Second" background-image="images/py_back.png">
 
 ## Course Schedule
 
