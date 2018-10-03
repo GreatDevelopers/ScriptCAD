@@ -4,15 +4,21 @@ body
 	flex-direction: column;
 }
 
-.First 
-{ background-image : url("../images/py_back.png");
+/*.First 
+{ 
+	background-image : url("../images/py_back.png");
 	align : center;
-  opacity : 0.5;
-}
+}*/
 
+.First:after
+{
+	content: "";
+	background: url("../images/py_back.png");
+	opacity: 0.5;
+	position: absolute;
+}
 .Second
 { background-image : url("../images/freecad.png");
-  opacity : 0.5;
 }
 
 .First>b
