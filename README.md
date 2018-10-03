@@ -1,11 +1,10 @@
-# Solid Scripting
+<link rel = "stylesheet" href = "style/intro.css">
 
 
-*Testing and Consultancy Cell Testing and Consultancy Cell (TCC)
-in association with
-Great Developers (GD) & Great Civil Engineers (GCE)
-presents
- capsule course, GNDEC presents a unique way to learn more in less time, less effort and less fee.*
+# Solid Modelling with Python
+
+
+*Testing and Consultancy Cell (TCC), GNDEC, in association with Great Developers (GD) & Great Civil Engineers (GCE), presents a unique way to learn more in less time, less effort and less fee.*
 
 
 ## Less Time, More Learning
@@ -28,9 +27,9 @@ And all of this in mere 6 hours that will be spread over a week for your comfort
 
 **Venue :** TCC Seminar Hall
 
-**Fee:** Flexible
+**Fee:** Flexible ( Scroll down for complete fee structure )
 
-**After-course support:** Life time
+**After-course support:** Life time*
 
 **Attendance:** Optional*
 
@@ -42,7 +41,6 @@ Recommended for every smart engineer who wish to empower herself/himself to prod
 
 Dean (TCC)
 
-(more achievements here)
 
 ## Prerequisites
 
@@ -52,6 +50,7 @@ Well, we are ready to give you all that we have, but then we also expect somethi
 * Exposure to any Computer Language (can be compensated if they opt for Monday session)
 * **Attitude of self-learner**
 
+
 ## Course Schedule
 
 The 6 hours will be spread over the week like this :
@@ -60,7 +59,7 @@ The 6 hours will be spread over the week like this :
 
 **4 pm to 5 pm**
 
-Basics of python - For those who don’t know even a single programming language
+Basics of python - For those who don’t know even a single programming language           
 
 - Program structure
 - Data type
@@ -73,28 +72,35 @@ Basics of python - For those who don’t know even a single programming language
 
 **4 pm to 5 pm**
 
-- Introduction to 3D Solid Modelling software (FreeCAD)
+- Introduction to 3D Solid Modelling software (FreeCAD)					 
 - Making 3D Bishop (Chess Piece) through GUI
 
 ### 11th Oct [Thursday]
 
 **4 pm to 5pm**
 
-- Introduction to macro in freeCAD
+- Introduction to macro in freeCAD							 
 - Making the python script to automatically create Bishop/House of given specifications.
 
 ### 13th Oct [Saturday] 
 
 **9 am to 1 pm**
 
-- Making ED sheets using python in FreeCAD.
+- Making ED sheets using python in FreeCAD.						 
 - Creating solid models, mechanical parts like gears and buildings.
 
 ## Fee Structure
 
- Student Type | Without Certificate | With Certificate
---- | --- | ---
-GNDEC Students | Rs 300 | Rs 600
-Other Students | Rs 1500 | Rs 3000
+ Student Type | Certificate preference | Course Fee | + Basic Python Course | After Course Support | Total Payable Fee | Concession Granted
+--- | --- | --- | --- | --- | --- | --- |
+GNDEC Students | Without Certificate | Rs 600 | + Rs 400 | 1 month | Rs 1000 | 80% | 
+"               | With Certificate |  Rs 1500 | + Rs 300 | 2 month | Rs 1800 | 64% |
+Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 36% |
+"               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
 
-*Conditions apply
+
+**[Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)**
+
+\*Conditions apply
+
+

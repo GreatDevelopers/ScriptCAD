@@ -1,0 +1,17 @@
+.First 
+{ background-image : url("../images/py_back.png");
+  opacity : 0.5;
+}
+
+.Second
+{ background-image : url("../images/freecad.png");
+  opacity : 0.5;
+}
+
+.pic
+{ float: right;
+	height: 10%; 
+	width: 50%;
+	border: 1px solid black;
+        background-color: white;
+}
