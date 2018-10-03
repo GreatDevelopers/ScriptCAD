@@ -2,7 +2,7 @@ body
 {
 	display: flex;
 	flex-align: column;
-	aligns-items: center;
+	aligns-items: stretch;
 }
 
 .First 
