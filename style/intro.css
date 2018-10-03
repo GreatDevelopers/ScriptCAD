@@ -12,7 +12,7 @@ body
 
 .First:after
 {
-	background-image: url(https://www.iconspng.com/uploads/python-language-logo/python-language-logo.png);
+	background-image: url(../images/python-logo.png);
 	opacity: 0.5;
 	content: ' ';
     	display: block;
