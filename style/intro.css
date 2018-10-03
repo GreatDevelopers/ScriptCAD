@@ -8,6 +8,11 @@
   opacity : 0.5;
 }
 
+.First>b
+{
+	color : red;
+}
+
 .pic
 { float: right;
 	height: 10%; 
