@@ -1,3 +1,10 @@
+body
+{
+	display: flex;
+	flex-align: column;
+	aligns-items: center;
+}
+
 .First 
 { background-image : url("../images/py_back.png");
 	align : center;
