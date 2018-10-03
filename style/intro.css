@@ -2,15 +2,13 @@ body
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.page
+{
 	position: relative;
 	align : center;
 }
-
-/*.page
-{
-	position: relative;
-    	text-align: center;
-}*/
 
 .First 
 {
