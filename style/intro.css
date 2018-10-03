@@ -19,14 +19,15 @@ body
     	position: absolute;
     	left: 0;
    	top: 0;
-    	width: 100%;
-	height: 100%;
+    	/*width: 100%;
+	height: 100%;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .Second
-{ background-image : url("../images/freecad.png");
+{ 
+	background-image : url("../images/freecad.png");
 }
 
 .First>b
@@ -35,7 +36,8 @@ body
 }
 
 .pic
-{ float: right;
+{ 
+	float: right;
 	height: 10%; 
 	width: 50%;
 	border: 1px solid black;
