@@ -36,8 +36,14 @@ body
 
 .Second
 { 
-	position: relative;
-	align : center;
+/*	position: relative;
+	align : center;*/
+}
+
+.freecad
+{
+	z-index: -1;
+	opacity: 0.3
 }
 
 /*.Second:after
