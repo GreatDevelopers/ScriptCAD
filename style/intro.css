@@ -2,12 +2,22 @@ body
 {
 	display: flex;
 	flex-direction: column;
+	position: relative;
+	align : center;
 }
+
+/*.page
+{
+	position: relative;
+    	text-align: center;
+}*/
 
 .First 
 {
-	position: relative;
-	align : center;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+/*	align : center;*/
 }
 
 .py_back
