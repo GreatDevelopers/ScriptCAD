@@ -9,7 +9,7 @@
 <div class="nav_bar">
 <div class="menu">
 
-* [FAQs](/FAQ.md) 
+[FAQs](/FAQ.md) 
 
 </div>
 </div>
