@@ -6,13 +6,7 @@
 
 <img src="images/py_back.png" class="py_back">
 
-<div class="nav_bar">
-<div class="menu">
-
 [FAQs](/FAQ.md) 
-
-</div>
-</div>
 
 # Solid Modelling with Python
 
