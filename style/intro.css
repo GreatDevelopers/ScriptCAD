@@ -50,7 +50,7 @@ body
 .macro
 {
 	float: right;
-	width: 150%;
+	width: 100%;
 	top-margin: 5px;
 	border: 2px solid white;
 	background-color: black;
