@@ -6,6 +6,14 @@
 
 <img src="images/py_back.png" class="py_back">
 
+<div class="nav_bar">
+<div class="menu">
+
+* [FAQs](/FAQ.md) 
+
+</div>
+</div>
+
 # Solid Modelling with Python
 
 
@@ -161,12 +169,11 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 "               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
 
 
+</div>
+
+</div>
+
 **[Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)**
 
-\*Conditions apply
+[\*Conditions apply](/Terms.md)
 
-</div>
-
-</div>
-
-**[Session0](/session0.md)**
