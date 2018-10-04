@@ -1,3 +1,7 @@
+---
+title : FAQ
+---
+
 # Frequently Asked Questions
 
 ## 1. Why CSE/IT students should join?
