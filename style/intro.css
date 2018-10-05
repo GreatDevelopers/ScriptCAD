@@ -24,6 +24,7 @@ body
 
 .menu>ul>li>a
 {
+	position: fixed;
 	color: white;
 }
 
