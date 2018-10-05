@@ -8,7 +8,7 @@ body
 /*Navigation Bar*/
 .nav_bar
 {
-	background: rgba(246, 189, 31, 0.5);
+	background: rgba(255, 255, 0, 0.5);
 	z-index: 1;
 	width: 100%;
 	height: 5em;
