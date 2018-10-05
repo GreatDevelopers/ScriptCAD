@@ -5,8 +5,9 @@
 <div class="nav_bar" markdown="1">
 <div class="menu" markdown="1">
 
-* <a href="/ScriptCAD/FAQ.html">FAQs</a>
-* <a href="/ScriptCAD/Terms.html">*Terms &amp; Conditions</a>
+* [Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)
+* [FAQs](/FAQ.md)
+* [Terms & Conditions](/Terms.md)
 
 </div>
 </div>
@@ -173,8 +174,3 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 </div>
 
 </div>
-
-**[Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)**
-
-[\*Conditions apply](/Terms.md)
-
