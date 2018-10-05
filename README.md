@@ -5,7 +5,7 @@
 <div class="nav_bar">
 <div class="menu">
 
-* [FAQs](/FAQ.md){FAQ}
+* [FAQs](/FAQ.md){.FAQ}
 * [\*Terms & Conditions](/Terms.md){.Terms}
 
 </div>
