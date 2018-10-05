@@ -30,12 +30,16 @@ body
 
 .menu
 {
-	text-align: center;
+	text-align: right;
 }
 
 .menu>ul>li>img
 {
 	align: left;
+	height: auto;
+	width: auto;
+	horizontal-align: left;
+	vertical-align: center;
 }
 
 /* Properties for Background*/
