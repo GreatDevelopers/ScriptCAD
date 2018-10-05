@@ -36,9 +36,8 @@ body
 .menu>ul>li>img
 {
 	align: left;
-	height: auto;
-	width: auto;
 	max-height: 8%;
+	width: auto;
 	horizontal-align: left;
 	vertical-align: middle;
 }
