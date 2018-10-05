@@ -5,8 +5,8 @@
 <div class="nav_bar" markdown="1">
 <div class="menu" markdown="1">
 
-* <a href="/ScriptCAD/FAQ.html" class="FAQS">FAQs</a>
-* <a href="/ScriptCAD/Terms.html" class="Terms">*Terms &amp; Conditions</a>
+* <a href="/ScriptCAD/FAQ.html">FAQs</a>
+* <a href="/ScriptCAD/Terms.html">*Terms &amp; Conditions</a>
 
 </div>
 </div>
