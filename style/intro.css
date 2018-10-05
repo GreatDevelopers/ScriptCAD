@@ -8,7 +8,7 @@ body
 /*Navigation Bar*/
 .nav_bar
 {
-	background: rgba(173, 216, 230, 1);
+	background: rgba(246, 189, 31, 0.5);
 	z-index: 1;
 	width: 100%;
 	height: 5em;
@@ -26,7 +26,7 @@ body
 
 .menu>ul>li>a
 {
-	color: white;
+	color: black;
 }
 
 .menu
