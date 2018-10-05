@@ -1,10 +1,11 @@
 body
 {
 	margin-top: 3em;
-	/*display: flex;
-	flex-direction: column;*/
+	display: flex;
+	flex-direction: column;
 }
 
+/*Navigation Bar*/
 .nav_bar
 {
 	background: rgba(173, 216, 230, 1);
