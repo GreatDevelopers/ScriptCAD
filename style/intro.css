@@ -38,8 +38,9 @@ body
 {
 	position: absolute;
 	z-index: 2;
+	margin-top: 1px;
 	margin-left: 0px;
-	width: 10%;
+	max-width: 20%;
 }
 
 /* Properties for Background*/
