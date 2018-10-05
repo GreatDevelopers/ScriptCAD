@@ -4,6 +4,8 @@ title : Terms & Conditions
 
 <link rel = "stylesheet" href = "style/intro.css">
 
+<link rel = "stylesheet" href = "style/intro.css">
+
 <div class="nav_bar" markdown="1">
 <div class="menu" markdown="1">
 
