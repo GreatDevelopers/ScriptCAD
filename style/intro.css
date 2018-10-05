@@ -38,8 +38,9 @@ body
 	align: left;
 	height: auto;
 	width: auto;
+	max-height: 8%;
 	horizontal-align: left;
-	vertical-align: center;
+	vertical-align: middle;
 }
 
 /* Properties for Background*/
