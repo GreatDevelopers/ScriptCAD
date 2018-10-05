@@ -5,6 +5,7 @@
 <div class="nav_bar" markdown="1">
 <div class="menu" markdown="1">
 
+* ![](/images/logo.jpg)
 * [Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)
 * [FAQs](/FAQ.md)
 * [Terms & Conditions](/Terms.md)
