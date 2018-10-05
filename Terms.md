@@ -20,6 +20,6 @@ title : Terms & Conditions
 
 # Terms and Conditions
 
-1. All right of content of course are reserved to TCC GNDEC, Ludhiana.
-1. Lifetime support refers to life time of a student. Any educational course normally spans 4 years. So we will consider you a student for 4 years. Thus, lifetime support means a maximum of 4 years support to answer your queries. Though actual time span of support depends on your choice of course.
+1. All content of this website and course material are covered under CC BY-SA 3.0.
+1. Lifetime support refer to period of studentship of participants. Any educational course normally spans 4 years. So we will consider you a student for 4 years. Thus, lifetime support means a maximum of 4 years support to answer your queries. Though actual time span of support depends on type of modules/sessions you opted and your affiliation.
 1. The attendance is optional and you can attend lectures of your choice. But the payable fee depends on the course which you have opted.
