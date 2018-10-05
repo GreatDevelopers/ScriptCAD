@@ -38,9 +38,10 @@ body
 {
 	position: fixed;
 	z-index: 2;
-	margin-top: 2px;
-	margin-left: 2px;
-	max-width: 20%;
+	top: 0px;
+	margin-top: 1px;
+	margin-left: 1px;
+	max-width: 8%;
 }
 
 /* Properties for Background*/
