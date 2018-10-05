@@ -2,11 +2,18 @@
 
 <div markdown="1" class="page">
 
+<div class="nav_bar">
+<div class="menu">
+
+* [FAQs](/FAQ.md){FAQ}
+* [\*Terms & Conditions](/Terms.md){.Terms}
+
+</div>
+</div>
+
 <div markdown="1" class="First">
 
 <img src="images/py_back.png" class="py_back">
-
-[FAQs](/FAQ.md) 
 
 # Solid Modelling with Python
 
