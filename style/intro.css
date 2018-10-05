@@ -1,8 +1,8 @@
 body
 {
-	display: flex;
 	margin-top: 3em;
-	flex-direction: column;
+	/*display: flex;
+	flex-direction: column;*/
 }
 
 .nav_bar
@@ -24,7 +24,6 @@ body
 
 .menu>ul>li>a
 {
-	position: fixed;
 	color: white;
 }
 
