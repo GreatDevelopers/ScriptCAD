@@ -2,8 +2,8 @@
 
 <div markdown="1" class="page">
 
-<div class="nav_bar">
-<div class="menu">
+<div class="nav_bar" markdown="1">
+<div class="menu" markdown="1">
 
 * [FAQs](/FAQ.md){.FAQ}
 * [\*Terms & Conditions](/Terms.md){.Terms}
