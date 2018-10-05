@@ -2,7 +2,7 @@
 
 <div markdown="1" class="page">
 
-<a href="https://surajdadral.github.io/ScriptCAD""><img src="images/logo.png" class="logo></a>
+<a href="https://surajdadral.github.io/ScriptCAD"><img src="images/logo.png" class="logo"></a>
 
 <div class="nav_bar" markdown="1">
 <div class="menu" markdown="1">
