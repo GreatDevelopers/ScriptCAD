@@ -2,6 +2,18 @@
 
 <div markdown="1" class="page">
 
+<a href="https://surajdadral.github.io/ScriptCAD"><img src="images/logo.png" class="logo"></a>
+
+<div class="nav_bar" markdown="1">
+<div class="menu" markdown="1">
+
+* [Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)
+* [FAQs](/FAQ.md)
+* [Terms & Conditions](/Terms.md)
+
+</div>
+</div>
+
 <div markdown="1" class="First">
 
 <img src="images/py_back.png" class="py_back">
@@ -161,11 +173,6 @@ Other Students | Without Certificate|  Rs 3000 | + Rs 200 | 2 years | Rs 3200 | 
 "               | With Certificate |  Rs 5000 | + Rs 0 | 4 years | Rs 5000 | 0% |  
 
 
-**[Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)**
-
-\*Conditions apply
-
 </div>
 
 </div>
-
