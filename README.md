@@ -2,7 +2,21 @@
 
 <div markdown="1" class="page">
 
-<div class="nav_bar" markdown="1">
+<div class="w3-bar w3-light-grey">
+<a href="https://greatdevelopers.github.io/ScriptCAD" class="w3-bar-item w3-button">Home</a>
+<a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button">Register Here</a>
+<div class="w3-dropdown-hover">
+<button class="w3-button">Menu</button>
+<div class="w3-dropdown-content w3-bar-block w3-card-4">
+<a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button">Register Here</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
+</div>
+</div>
+</div>
+
+
+/*<div class="nav_bar" markdown="1">
 <div class="menu" markdown="1">
 
 * [Home](/ScriptCAD)
@@ -11,7 +25,7 @@
 * [Terms & Conditions](/Terms.md)
 
 </div>
-</div>
+</div>*/
 
 <div markdown="1" class="First">
 
