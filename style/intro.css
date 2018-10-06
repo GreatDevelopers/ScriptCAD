@@ -1,37 +1,7 @@
 body
 {
-	margin-top: 5em;
 	display: flex;
 	flex-direction: column;
-}
-
-/*Navigation Bar*/
-.nav_bar
-{
-	background: rgba(255, 255, 0, 0.5);
-	z-index: 1;
-	width: 100%;
-	height: 5em;
-	top: 0px;
-	position: fixed;
-}
-
-.menu>ul>li
-{
-	display: inline;
-	list-style: none;
-	padding: 1%;
-}
-
-.menu>ul>li>a
-{
-	color: black;
-}
-
-.menu
-{
-	text-align: center;
-
 }
 
 /* Properties for Background*/
