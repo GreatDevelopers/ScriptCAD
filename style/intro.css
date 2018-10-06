@@ -1,6 +1,6 @@
 body
 {
-	margin-top: 20%;
+	margin-top: 10%;
 	display: flex;
 	flex-direction: column;
 }
@@ -11,7 +11,7 @@ body
 	background: rgba(173, 216, 230, 1);
 	z-index: 1;
 	width: 100%;
-	height: 5em;
+	height: 10%;
 	top: 0px;
 	position: fixed;
 }
@@ -19,7 +19,6 @@ body
 .menu>ul>li
 {
 	display: inline;
-	vertical-align: middle;
 	list-style: none;
 	padding: .7em;
 }
@@ -31,18 +30,7 @@ body
 
 .menu
 {
-	text-align: -webkit-center;
-}
-
-/*logo properties*/
-.logo
-{
-	position: fixed;
-	z-index: 2;
-	top: 0px;
-	margin-top: 1px;
-	margin-left: 1px;
-	max-width: 8%;
+	text-align: center;
 }
 
 /* Properties for Background*/

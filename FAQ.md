@@ -4,11 +4,10 @@ title : FAQ
 
 <link rel = "stylesheet" href = "style/intro.css">
 
-<a href="https://surajdadral.github.io/ScriptCAD"><img src="images/logo.png" class="logo"></a>
-
 <div class="nav_bar" markdown="1">
 <div class="menu" markdown="1">
 
+* [Home](/)
 * [Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)
 * [FAQs](/FAQ.md)
 * [Terms & Conditions](/Terms.md)
