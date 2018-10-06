@@ -1,17 +1,110 @@
+body
+{
+	margin-top: 20%;
+	display: flex;
+	flex-direction: column;
+}
+
+/*Navigation Bar*/
+.nav_bar
+{
+	background: rgba(255, 255, 0, 0.5);
+	z-index: 1;
+	width: 100%;
+	height: 5em;
+	top: 0px;
+	position: fixed;
+}
+
+.menu>ul>li
+{
+	display: inline;
+	vertical-align: middle;
+	list-style: none;
+	padding: .7em;
+}
+
+.menu>ul>li>a
+{
+	color: black;
+}
+
+.menu
+{
+	text-align: -webkit-center;
+}
+
+/*logo properties*/
+.logo
+{
+	position: fixed;
+	z-index: 2;
+	top: 0px;
+	margin-top: 1px;
+	margin-left: 1px;
+	max-width: 8%;
+}
+
+/* Properties for Background*/
 .First 
-{ background-image : url("../images/py_back.png");
-  opacity : 0.5;
+{
+	position: relative;
+	align : center;
+}
+
+.py_back
+{
+	position: absolute;
+	z-index: -1;
+	opacity: 0.3;
 }
 
 .Second
-{ background-image : url("../images/freecad.png");
-  opacity : 0.5;
+{ 
+	position: relative;
 }
 
-.pic
-{ float: right;
-	height: 10%; 
-	width: 50%;
+.freecad
+{
+	position: absolute;
+	z-index: -1;
+	opacity: 0.3;
+}
+
+/* Properties for images */
+.GameOfLife
+{
+	float: right;
+	width: 90%;
 	border: 1px solid black;
-        background-color: white;
+	background-color: white;
+	z-index: 0;
+}
+
+.bishop
+{
+	float: right;
+	width: 80%;
+	border: 1px solid black;
+	background-color: white;
+	z-index: 0;
+}
+
+.macro
+{
+	float: right;
+	width: 100%;
+	top-margin: 5px;
+	border: 2px solid white;
+	background-color: black;
+	z-index: 0;
+}
+
+.topGear
+{
+	float: right;
+	width: 80%;
+	border: 1px solid black;
+	background-color: white;
+	z-index: 0;
 }
