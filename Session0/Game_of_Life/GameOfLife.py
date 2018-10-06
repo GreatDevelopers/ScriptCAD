@@ -6,10 +6,18 @@
 import random
 import time
 import os
+import platform
+import copy
+
+if platform.system() == 'Linux':
+    CLEAR = 'clear'
+elif platform.system() == 'Windows':
+    CLEAR = 'cls'
+
 
 #---------------------------------------------------------------------------
 
-def initGrid(cols, rows, array):
+def initGrid(rows, cols, array):
     for i in range(rows):
         arrayRow = []
         for j in range(cols):
@@ -25,8 +33,8 @@ def initGrid(cols, rows, array):
 
 #---------------------------------------------------------------------------
     
-def printGen(cols, rows, array, genNo):
-    os.system("clear")
+def printGen(rows, cols, array, genNo):
+    os.system(CLEAR)
 
     print("Game of Life -- Generation " + str(genNo + 1))
     
@@ -42,7 +50,7 @@ def printGen(cols, rows, array, genNo):
 
 #---------------------------------------------------------------------------
 
-def processNextGen(cols, rows, cur, nxt):
+def processNextGen(rows, cols, cur, nxt):
     for i in range(1,rows-1):
         for j in range(1,cols-1):
             nxt[i][j] = processNeighbours(i, j, cur)
@@ -54,7 +62,7 @@ def processNeighbours(x, y, array):
     for j in range(y-1,y+2):
         for i in range(x-1,x+2):
             if not(i == x and j == y):
-                if array[i][j] != -1:
+                if array[i][j] == 1:
                     nCount += array[i][j]
     if array[x][y] == 1 and nCount < 2:
         return 0
