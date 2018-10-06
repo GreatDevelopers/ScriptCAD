@@ -1,6 +1,20 @@
 ---
-Title: Payment notice
+Title : Payment notice
 ---
+
+<link rel = "stylesheet" href = "style/intro.css">
+ 
+<div class="nav_bar" markdown="1">
+<div class="menu" markdown="1">
+
+* [Home](/ScriptCAD)
+* [Register Here](https://goo.gl/forms/YeDk8IqOeDLKQOtB2)
+* [FAQs](/FAQ.md)
+* [Terms & Conditions](/Terms.md)
+
+</div>
+</div>
+
 #  Payment notice
 
 * **Last date for Registration**: Sunday 12:00 PM (07-10-2018)
