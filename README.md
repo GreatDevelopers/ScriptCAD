@@ -1,5 +1,7 @@
 <link rel = "stylesheet" href = "style/intro.css">
 
+<link rel = "stylesheet" href = "https://www.w3schools.com/w3css/4/w3.css">
+
 <div markdown="1" class="page">
 
 <div class="w3-bar w3-light-grey">
