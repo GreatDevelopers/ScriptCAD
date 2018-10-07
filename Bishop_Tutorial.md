@@ -37,141 +37,141 @@ our bishop will be something what like this
 
 ## The Head:
 
-Open FreeCAD and select part workbench as there we can easily and
+* Open FreeCAD and select part workbench as there we can easily and
 directly create our basic solids shapes that are required for our chess
 bishop.
 
 ![](images/Bishop1.jpg)
 
-From “1. Basic shapes” as the image we can create different shapes like
+* From “1. Basic shapes” as the image we can create different shapes like
 cube, sphere, cylinder, cone etc. From the “2. Basic settings” we can
 change the dimensions and position/placement of the solid.
 
 ### Step 1: The sphere
 
-Click on to the sphere icon to create the sphere, now change the radius
+* Click on to the sphere icon to create the sphere, now change the radius
 of the sphere to 20, we are going to keep this sphere at the center itself.
 
 ### Step 2: The cone
 
-Now click on to the cone to create it. When you will do that you will see
+* Now click on to the cone to create it. When you will do that you will see
 that no cone was created, but it is actually there. Because of its small
 dimensions it is hidden inside the sphere we made.
 
 ![](images/Bishop2.png)
 
-From the image you may see that “2” shows that a cone is present. “4” is
+* From the image you may see that “2” shows that a cone is present. “4” is
 the dimension of the cone, change it as we did in OpenSCAD. “5” is an
 area where the cone or I may say frustum is there but hidden inside the
 sphere.
 
 ![](images/Bishop3.png)
 
-After changing the dimensions accordingly we may see that the shape is
+* After changing the dimensions accordingly we may see that the shape is
 not at all like a water-drop, so as we did last time we will place the
 bishop accordingly by clicking the placement.
 
 ![](images/Bishop4.png)
 
-After placing correctly the shape looks something what like the below
+* After placing correctly the shape looks something what like the below
 image.
 
 ![](images/Bishop5.png)
 
 ### Step 3: Union of solids
 
-Now it time to unite the two solids we created, the same thing we also
+* Now it time to unite the two solids we created, the same thing we also
 did in OpenSCAD right.
 
 ![](images/Bishop6.png)
 
-In the image above from “1” we can perform ‘union’, ‘difference’ etc.
+* In the image above from “1” we can perform ‘union’, ‘difference’ etc.
 
-Clicking to that it will as you to select the two solids. Select them
+* Clicking to that it will as you to select the two solids. Select them
 and click “Union” and then “Apply” and then “close”.
 
 ![](images/Bishop7.png)
 
 ### Step 4: Dollop/Joker nose
 
-Now the procedure for other solids are also going to be same.
+* Now the procedure for other solids are also going to be same.
 
-Going to the Dollop shape or we can say Jokers nose shape.
+* Going to the Dollop shape or we can say Jokers nose shape.
 
 ![](images/Bishop8.png)
 
-Create a sphere, change its dimensions and placement accordingly.
+* Create a sphere, change its dimensions and placement accordingly.
 
-Then unite it with the water drop shape and we are done with the head
+* Then unite it with the water drop shape and we are done with the head
 part.
 
-**Neck And Base:**
+## Neck And Base:
 
-**Step 1:**
+### Step 1:
 
-To create neck click on cone and change its radius1 and radius2 change
+* To create neck click on cone and change its radius1 and radius2 change
 it’s height to create a frustum and place it correctly.
 
 ![](images/Bishop9.png)
 
-**Step 2:**
+### Step 2:
 
-Click on cone again change its radius1 and radius2 also it’s height and
+* Click on cone again change its radius1 and radius2 also it’s height and
 place it to the bottom and that will create the base.
 
 ![](images/Bishop10.png)
 
-**Step 3:**
+### Step 3:
 
 Unite the neck and base.
 
 Now it’s the turn for collar of the bishop.
 
-**Collar:**
+## Collar:
 
-Creating the collar is simple just we have to do is to create a cone
+* Creating the collar is simple just we have to do is to create a cone
 change its radius1 and radius2 and place it little upper to its neck,
 now create another cone do the same and rotate it by 180°, and unite the
 two frustum.
 
-After doing this unite “collar” and “neck-base”.
+* After doing this unite “collar” and “neck-base”.
 
-Also unite the head and lower part to create the “raw bishop”
+* Also unite the head and lower part to create the “raw bishop”
 
-The collar is also done. Now it’s time for the final step i.e. the cut
+* The collar is also done. Now it’s time for the final step i.e. the cut
 out slot
 
-**Cut out slot:**
+## Cut out slot:
 
-**Step 1:**
+### Step 1:
 
-To do that create a cube change its height and length accordingly and
+* To do that create a cube change its height and length accordingly and
 also it’s width. Place it accordingly and also rotate it 45°.
 
 ![](images/Bishop11.png)
 
-Which will look something what like the above image.
+* Which will look something what like the above image.
 
-**Step 2:**
+### Step 2:
 
-Now we have to cut the cuboid from the raw bishop that we had created.
+* Now we have to cut the cuboid from the raw bishop that we had created.
 
 ![](images/Bishop12.png)
 
-For that the procedure is same as Union just we have to click the
+* For that the procedure is same as Union just we have to click the
 difference Boolean operation.
 
 ![](images/Bishop13.png)
 
-Which will look something what like this.
+* Which will look something what like this.
 
-Now we are done with the bishop and it just took 30-35 minutes to make
+* Now we are done with the bishop and it just took 30-35 minutes to make
 it. Isn’t it simple to make complex shapes using basic and simple
 shapes?
 
-Our final Chess bishop will look like this
+* Our final Chess bishop will look like this
 
-![](images/Bishop14.png)
+![](images/Bishop14.jpg)
 
 Hope you enjoyed it.
 
