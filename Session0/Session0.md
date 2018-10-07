@@ -1,3 +1,32 @@
+<link rel = "stylesheet" href = "style/intro.css">
+ 
+<link rel = "stylesheet" href = "https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-bar w3-light-grey">
+<a href="https://greatdevelopers.github.io/ScriptCAD" class="w3-bar-item w3-button">Home</a>
+<a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button">Register Here</a>
+<div class="w3-dropdown-hover">
+<button class="w3-button">Menu</button>
+<div class="w3-dropdown-content w3-bar-block w3-card-4">
+<a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button">Register Here</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/Payment.html" class="w3-bar-item w3-button">Transaction Details</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
+</div>
+</div>
+
+<div class="w3-dropdown-hover">
+<button class="w3-button">Sessions</button>
+<div class="w3-dropdown-content w3-bar-block w3-card-4">
+<a href="https://surajdadral.github.io/ScriptCAD/Session0/Session0.html" class="w3-bar-item w3-button">Session-0</a>
+<!--
+<a href="https://surajdadral.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
+-->
+</div>
+</div>
+
+</div>
+
 # A day with Python!
 
 ## Introduction:
