@@ -1,15 +1,41 @@
-# Chess Bishop In FreeCAD. (GUI only)
+<link rel = "stylesheet" href = "style/intro.css">
 
-Before getting started, lets divide the Bishop in 3 basic parts.
-1) Head
-2) Lower part (neck and base)
-3) collar and cut-out slot.
+<link rel = "stylesheet" href = "https://www.w3schools.com/w3css/4/w3.css">
+
+<div class="w3-bar w3-light-grey">
+<a href="https://greatdevelopers.github.io/ScriptCAD" class="w3-bar-item w3-button">Home</a>
+<a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button">Register Here</a>
+<div class="w3-dropdown-hover">
+<button class="w3-button">Menu</button>
+<div class="w3-dropdown-content w3-bar-block w3-card-4">
+<a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button">Register Here</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/Payment.html" class="w3-bar-item w3-button">Transaction Details</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
+<a href="https://greatdevelopers.github.io/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
+</div>
+</div>
+
+<div class="w3-dropdown-hover">
+<button class="w3-button">Sessions</button>
+<div class="w3-dropdown-content w3-bar-block w3-card-4">
+<a href="https://surajdadral.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
+</div>
+</div>
+
+</div>
+
+# Chess Bishop In FreeCAD (GUI only)
+
+Before getting started, lets divide the Bishop in 3 basic parts.   
+1. Head   
+1. Lower part (neck and base)
+1. collar and cut-out slot.
 
 ![](images/BishopPart.png)
 
 our bishop will be something what like this
 
-**The Head:**
+## The Head:
 
 Open FreeCAD and select part workbench as there we can easily and
 directly create our basic solids shapes that are required for our chess
@@ -21,12 +47,12 @@ From “1. Basic shapes” as the image we can create different shapes like
 cube, sphere, cylinder, cone etc. From the “2. Basic settings” we can
 change the dimensions and position/placement of the solid.
 
-**Step 1: The sphere**
+### Step 1: The sphere
 
 Click on to the sphere icon to create the sphere, now change the radius
 of the sphere to 20, we are going to keep this sphere at the center itself.
 
-**Step 2: The cone**
+### Step 2: The cone
 
 Now click on to the cone to create it. When you will do that you will see
 that no cone was created, but it is actually there. Because of its small
@@ -52,7 +78,7 @@ image.
 
 ![](images/Bishop5.png)
 
-**Step 3: Union of solids**
+### Step 3: Union of solids
 
 Now it time to unite the two solids we created, the same thing we also
 did in OpenSCAD right.
@@ -66,7 +92,7 @@ and click “Union” and then “Apply” and then “close”.
 
 ![](images/Bishop7.png)
 
-**Step 4: Dollop/Joker nose**
+### Step 4: Dollop/Joker nose
 
 Now the procedure for other solids are also going to be same.
 
