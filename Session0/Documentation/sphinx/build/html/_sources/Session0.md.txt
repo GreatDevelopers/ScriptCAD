@@ -1,4 +1,4 @@
-# A day with Python!
+# A date with Python!
 
 ## Introduction:
 
