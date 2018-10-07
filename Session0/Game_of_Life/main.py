@@ -6,12 +6,15 @@ from GameParameters import *
 thisGen = []
 nextGen = []
 
-initGrid(COLS, ROWS, thisGen)
-initGrid(COLS, ROWS, nextGen)
+initGrid(ROWS, COLS,  thisGen)
 
-for gens in range(GENERATIONS):
-    printGen(COLS, ROWS, thisGen, gens)
-    processNextGen(COLS, ROWS, thisGen, nextGen)
-    time.sleep(DELAY)
-    thisGen, nextGen = nextGen, thisGen
+nextGen = copy.deepcopy(thisGen)
+
+printGen(ROWS, COLS, thisGen, 0)
+
+for gens in range(1, GENERATIONS):
+    processNextGen(ROWS, COLS, thisGen, nextGen)
+    printGen(ROWS, COLS, nextGen, gens)
+    input()
+    thisGen = copy.deepcopy(nextGen)
 input("Finished. Press <return> to quit.")
