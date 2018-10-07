@@ -17,7 +17,7 @@
 </div>
 </div>
 
-<!---
+<!--
 <div class="w3-dropdown-hover">
 <button class="w3-button">Sessions</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
