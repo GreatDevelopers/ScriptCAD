@@ -9,11 +9,10 @@ import os
 import platform
 import copy
 
-if platform.system() == 'Linux':
-    CLEAR = 'clear'
-elif platform.system() == 'Windows':
+if platform.system() == 'Windows':
     CLEAR = 'cls'
-
+else:
+    CLEAR = 'clear'
 
 #---------------------------------------------------------------------------
 

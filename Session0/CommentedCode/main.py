@@ -12,8 +12,7 @@ nextGen = []
 
 # initGrid() is a function included in library GameOfLife.py which gives the list (which is passed), an initial state which is completely random.
 
-initGrid(COLS, ROWS, thisGen)
-initGrid(COLS, ROWS, nextGen)
+initGrid(ROWS, COLS,  thisGen)
 
 # printGen() is a function included in library GameOfLife.py which prints the generation (2D matrix).
 
@@ -21,13 +20,18 @@ initGrid(COLS, ROWS, nextGen)
 
 # sleep() is a function in the library "time" which takes arguments in seconds. It produces delay between the previous generation and the next generation.
 
-for gens in range(GENERATIONS):
-    printGen(COLS, ROWS, thisGen, gens)
-    processNextGen(COLS, ROWS, thisGen, nextGen)
-    time.sleep(DELAY)
+nextGen = copy.deepcopy(thisGen)
 
-    # Once current generation is done printing. The current generation is now assigned the next generation to be printed out next.
-    # Swapping has been performed here.
-    thisGen, nextGen = nextGen, thisGen 
+printGen(ROWS, COLS, thisGen, 0)
+
+for gens in range(GENERATIONS):
+    processNextGen(ROWS, COLS, thisGen, nextGen)
+    printGen(ROWS, COLS, nextGen, gens)
+    input()
+
+    # Once current generation is done printing. The next generation is now proceessed the next generation to be printed out next.
+    # At last thisGen has been assigned the value of nextGen for getting copied.
+
+    thisGen = copy.deepcopy(nextGen)
 
 input("Finished. Press <return> to quit.")
