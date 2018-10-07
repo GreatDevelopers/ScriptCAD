@@ -24,8 +24,8 @@
 <a href="https://greatdevelopers.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
 </div>
 </div>
-</div>
 -->
+</div>
 
 <div markdown="1" class="First">
 
