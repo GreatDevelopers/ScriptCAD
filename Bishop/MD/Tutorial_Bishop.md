@@ -1,11 +1,11 @@
-#Chess Bishop In FreeCAD. (GUI only)
+# Chess Bishop In FreeCAD. (GUI only)
 
-Before getting started, lets devide the bishop in 3 basic part.
+Before getting started, lets divide the Bishop in 3 basic parts.
 1) Head
-2) Lower part(neck and base)
+2) Lower part (neck and base)
 3) collar and cut-out slot.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/capture9.png)
+![](images/BishopPart.png)
 
 our bishop will be something what like this
 
@@ -15,7 +15,7 @@ Open FreeCAD and select part workbench as there we can easily and
 directly create our basic solids shapes that are required for our chess
 bishop.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/1.jpg)
+![](images/Bishop1.jpg)
 
 From “1. Basic shapes” as the image we can create different shapes like
 cube, sphere, cylinder, cone etc. From the “2. Basic settings” we can
@@ -32,39 +32,39 @@ Now click on to the cone to create it. When you will do that you will see
 that no cone was created, but it is actually there. Because of its small
 dimensions it is hidden inside the sphere we made.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/2.png)
+![](images/Bishop2.png)
 
 From the image you may see that “2” shows that a cone is present. “4” is
 the dimension of the cone, change it as we did in OpenSCAD. “5” is an
 area where the cone or I may say frustum is there but hidden inside the
 sphere.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/4.png)
+![](images/Bishop3.png)
 
 After changing the dimensions accordingly we may see that the shape is
 not at all like a water-drop, so as we did last time we will place the
 bishop accordingly by clicking the placement.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/3.png)
+![](images/Bishop4.png)
 
 After placing correctly the shape looks something what like the below
 image.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/4-1.png)
+![](images/Bishop5.png)
 
 **Step 3: Union of solids**
 
 Now it time to unite the two solids we created, the same thing we also
 did in OpenSCAD right.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/4-2.png)
+![](images/Bishop6.png)
 
 In the image above from “1” we can perform ‘union’, ‘difference’ etc.
 
 Clicking to that it will as you to select the two solids. Select them
 and click “Union” and then “Apply” and then “close”.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/4-32.png)
+![](images/Bishop7.png)
 
 **Step 4: Dollop/Joker nose**
 
@@ -72,7 +72,7 @@ Now the procedure for other solids are also going to be same.
 
 Going to the Dollop shape or we can say Jokers nose shape.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/5.png)
+![](images/Bishop8.png)
 
 Create a sphere, change its dimensions and placement accordingly.
 
@@ -86,14 +86,14 @@ part.
 To create neck click on cone and change its radius1 and radius2 change
 it’s height to create a frustum and place it correctly.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/6.png)
+![](images/Bishop9.png)
 
 **Step 2:**
 
 Click on cone again change its radius1 and radius2 also it’s height and
 place it to the bottom and that will create the base.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/7.png)
+![](images/Bishop10.png)
 
 **Step 3:**
 
@@ -122,7 +122,7 @@ out slot
 To do that create a cube change its height and length accordingly and
 also it’s width. Place it accordingly and also rotate it 45°.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/8.png)
+![](images/Bishop11.png)
 
 Which will look something what like the above image.
 
@@ -130,12 +130,12 @@ Which will look something what like the above image.
 
 Now we have to cut the cuboid from the raw bishop that we had created.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/9.png)
+![](images/Bishop12.png)
 
 For that the procedure is same as Union just we have to click the
 difference Boolean operation.
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/10.png)
+![](images/Bishop13.png)
 
 Which will look something what like this.
 
@@ -145,7 +145,11 @@ shapes?
 
 Our final Chess bishop will look like this
 
-![](Chess%20Bishop%20in%20FreeCAD%20%E2%80%93%20mechaAk_files/bishop.jpg)
+![](images/Bishop14.png)
+
+Hope you enjoyed it.
+
+Thank you!
 
 Follow the blog for Chess_Bishop
 
