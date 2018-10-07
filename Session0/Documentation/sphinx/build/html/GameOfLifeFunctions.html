@@ -1,0 +1,268 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Functions Explained- &#8212; Game Of Life 0.0 documentation</title>
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="A date with Python!" href="Session0.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Session0.html" title="A date with Python!"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="GameOfLife.html">Game Of Life 0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="functions-explained">
+<span id="functions-explained"></span><h1>Functions Explained-<a class="headerlink" href="#functions-explained" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="initgrid-rows-cols-array">
+<span id="initgrid-rows-cols-array"></span><h2>initGrid(rows, cols, array)<a class="headerlink" href="#initgrid-rows-cols-array" title="Permalink to this headline">¶</a></h2>
+<p>We have already learnt what this function does, but now let’s get into the how part.</p>
+<p>So, it takes 3 arguments-</p>
+<ol class="simple">
+<li>rows- The number of rows in the 2D matrix</li>
+<li>cols- The number of rows in the 2D matrix</li>
+<li>array- which is simply a list which is going to hold the 2D matrix</li>
+</ol>
+<p>When we come inside the function there is a <strong><code class="docutils literal notranslate"><span class="pre">for</span></code></strong> loop, which ranges from <strong><code class="docutils literal notranslate"><span class="pre">(i</span> <span class="pre">=</span> <span class="pre">0)</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">(i</span> <span class="pre">=</span> <span class="pre">rows-1)</span></code></strong>, when the first row starts, the control enter the block-</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">rows</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>Now when it is the first row, there is initialization of a new list, which is empty-</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="n">arrayRow</span> <span class="o">=</span> <span class="p">[]</span>
+</pre></div>
+</div>
+<p>Now the control enters the inner loop, where this ranges from <strong><code class="docutils literal notranslate"><span class="pre">(j</span> <span class="pre">=</span> <span class="pre">0)</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">(j</span> <span class="pre">=</span> <span class="pre">cols-1)</span></code></strong>, and for every value of <strong><code class="docutils literal notranslate"><span class="pre">i</span></code></strong>, this inner loop executes from <strong><code class="docutils literal notranslate"><span class="pre">(j</span> <span class="pre">=</span> <span class="pre">0)</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">(j</span> <span class="pre">=</span> <span class="pre">cols-1)</span></code></strong>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">cols</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>Now the control goes inside the the definiton part, if it is the <code class="docutils literal notranslate"><span class="pre">first</span> <span class="pre">row</span></code> (i=0) or <code class="docutils literal notranslate"><span class="pre">first</span> <span class="pre">column</span></code> (j=0) or ‘last row’ (rows-1) or the <code class="docutils literal notranslate"><span class="pre">last</span> <span class="pre">column</span></code> (cols-1) then the list is appended with (-1) -</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>            <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="n">rows</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">j</span> <span class="o">==</span> <span class="n">cols</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)):</span>
+                <span class="n">arrayRow</span> <span class="o">+=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>And now the else part, if values of i &amp; j are anything other than the above specified values, then in the definition part of else, it generates random values from 0 to 3. If the value is 0, then it adds <code class="docutils literal notranslate"><span class="pre">1</span></code> to the row, else if it is any value either <code class="docutils literal notranslate"><span class="pre">1</span></code> or <code class="docutils literal notranslate"><span class="pre">2</span></code> or <code class="docutils literal notranslate"><span class="pre">3</span></code>, it will append 0 to the row.</p>
+<blockquote>
+<div>Values 1,2,3 are taken just to reduce the probablity of generating 0s.
+Just a note, 0 means a dead cell and 1 mean a live cell.</div></blockquote>
+<blockquote>
+<div>randint() is a function in the module random, which generates random numbers
+in a range eg- random.randint(0,3), generates numbers between 0 and 3.</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="k">else</span><span class="p">:</span>
+            <span class="n">ran</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">3</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">ran</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">arrayRow</span> <span class="o">+=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">arrayRow</span> <span class="o">+=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>When the value of <code class="docutils literal notranslate"><span class="pre">i</span></code> is <code class="docutils literal notranslate"><span class="pre">0</span></code> or <code class="docutils literal notranslate"><span class="pre">row-1</span></code> the whole row will be filled with -1.</p>
+<p><img alt="Row1" src="_images/1.jpg" /></p>
+<p>And for every case values would be somehow like-</p>
+<p><img alt="Row2" src="_images/2.jpg" /></p>
+<p>And at the end when the first row is to end, the row generated inside the inner loop is appended to the argument list array[].</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="n">array</span> <span class="o">+=</span> <span class="p">[</span><span class="n">arrayRow</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>And after the main loop has run some time, it will appear somehow like the picture below-</p>
+<p><img alt="Row3" src="_images/3.png" /></p>
+</div>
+<hr class="docutils" />
+<div class="section" id="printgen-rows-cols-array-genno">
+<span id="printgen-rows-cols-array-genno"></span><h2>printGen(rows, cols, array, genNo):<a class="headerlink" href="#printgen-rows-cols-array-genno" title="Permalink to this headline">¶</a></h2>
+<p>As per inroduction this function prints the whole 2D matrix. Some let’s come to the definition part of this function-</p>
+<p>This function clears the screen for the next thing to get printed. The function system(“clear”) is present in the module <code class="docutils literal notranslate"><span class="pre">os</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s2">&quot;clear&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<blockquote>
+<div>In windows “clear” should be replaced with “cls”.</div></blockquote>
+<p>Next statement simply prints the current generation,</p>
+<blockquote>
+<div>Here is something that is to be noted down that we are trying to concatenate
+a string and a number which is not possible. So we need to <strong>typecast</strong> the
+number into a string e.g- str(number)</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Game of Life -- Generation &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">genNo</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>Now, the control moves to the <code class="docutils literal notranslate"><span class="pre">for</span></code> loop which runs from <strong><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">0</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">rows-1</span></code></strong> and for every  <strong>i</strong>, the inner loop runs from <strong><code class="docutils literal notranslate"><span class="pre">j</span> <span class="pre">=</span> <span class="pre">0</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">j</span> <span class="pre">==</span> <span class="pre">cols-1</span></code></strong>,</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">rows</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">cols</span><span class="p">):</span>
+</pre></div>
+</div>
+<p><img alt="Row4" src="_images/4.png" /></p>
+<p>The inner loop contains below statements to be executed. If the list at the <code class="docutils literal notranslate"><span class="pre">ith</span></code> and <code class="docutils literal notranslate"><span class="pre">jth</span></code> position contains-</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">then</span> <span class="c1"># will be printed, which represents the boundary</span>
+ <span class="mi">1</span><span class="p">,</span> <span class="n">then</span> <span class="n">O</span> <span class="n">will</span> <span class="n">be</span> <span class="n">printed</span><span class="p">,</span> <span class="n">which</span> <span class="n">represents</span> <span class="n">a</span> <span class="n">live</span> <span class="n">cell</span>
+ <span class="mi">0</span><span class="p">,</span> <span class="n">then</span> <span class="n">a</span> <span class="n">space</span> <span class="n">will</span> <span class="n">be</span> <span class="n">printed</span><span class="p">,</span> <span class="n">which</span> <span class="n">represents</span> <span class="n">a</span> <span class="n">dead</span> <span class="n">cell</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>            <span class="k">if</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;#&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;O&quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now, after every row has been done printing completely we moved to the next line.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p><img alt="Row4" src="_images/5.png" /></p>
+<blockquote>
+<div>P.S- Keep a note that we have just printed the 2D matrix and not changed
+the values of the list.</div></blockquote>
+</div>
+<div class="section" id="processnextgen-rows-cols-cur-nxt">
+<span id="processnextgen-rows-cols-cur-nxt"></span><h2>processNextGen(rows, cols, cur, nxt):<a class="headerlink" href="#processnextgen-rows-cols-cur-nxt" title="Permalink to this headline">¶</a></h2>
+<p>As the name suggests this function processess the 2D matrix for the next generation. <code class="docutils literal notranslate"><span class="pre">cur</span></code> (also referred as current) and <code class="docutils literal notranslate"><span class="pre">nxt</span></code> (also referred as next) are thisGen[] and nextGen[] respectively.</p>
+<p>Coming to the block part, there are again two nested loops, for the first loop value of <code class="docutils literal notranslate"><span class="pre">i</span></code> ranges from <strong><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">1</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">rows-2</span></code></strong> and for each value of <code class="docutils literal notranslate"><span class="pre">i</span></code> the inner loop ranges from <strong><code class="docutils literal notranslate"><span class="pre">j</span> <span class="pre">=</span> <span class="pre">1</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">j</span> <span class="pre">=</span> <span class="pre">cols</span> <span class="pre">-</span> <span class="pre">2</span></code></strong>.</p>
+<blockquote>
+<div>P.S- As, first and last row <strong>and</strong> first and last column represents
+the boundaries, hence no changes will be there in next generation.</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">rows</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="n">cols</span><span class="o">-</span><span class="mi">1</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>Now for every value of i and j, there is a cell whose existence depends on the surrounding cells, and each need to be processed separately and to achieve that there is a separate function named <strong>processNeighbours()</strong>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>            <span class="n">nxt</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="n">processNeighbours</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">,</span> <span class="n">cur</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="processneighbours-x-y-array">
+<span id="processneighbours-x-y-array"></span><h2>processNeighbours(x, y, array):<a class="headerlink" href="#processneighbours-x-y-array" title="Permalink to this headline">¶</a></h2>
+<p>According to the rules, the existence or birth or death of a cell depends upon the the no. of neighbours a cell has.
+So, we need to count the no. of neighbours a cell has. So, we initialized a variable with initial count to be zero i.e <code class="docutils literal notranslate"><span class="pre">nCount</span> <span class="pre">=</span> <span class="pre">0</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="n">nCount</span> <span class="o">=</span> <span class="mi">0</span>
+</pre></div>
+</div>
+<p>Now comes a for loop for which <code class="docutils literal notranslate"><span class="pre">j</span></code> ranges from <strong><code class="docutils literal notranslate"><span class="pre">j</span> <span class="pre">=</span> <span class="pre">y-1</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">j</span> <span class="pre">=</span> <span class="pre">y+1</span></code></strong> and for each value of <code class="docutils literal notranslate"><span class="pre">j</span></code>, the inner loop ranges from <strong><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">x-1</span></code></strong> to <strong><code class="docutils literal notranslate"><span class="pre">i</span> <span class="pre">=</span> <span class="pre">x+1</span></code></strong>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">y</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">y</span><span class="o">+</span><span class="mi">2</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">x</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="n">x</span><span class="o">+</span><span class="mi">2</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>And the condition is if <strong>i is not equal to x</strong> and at the same time <strong>j is not equal to y</strong>, i.e we have to neglect the concerned cell, as cell can’t be its own neighbour.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>            <span class="k">if</span> <span class="ow">not</span><span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="n">x</span> <span class="ow">and</span> <span class="n">j</span> <span class="o">==</span> <span class="n">y</span><span class="p">):</span>
+</pre></div>
+</div>
+<p>And at the same time, we should keep in mind that, it may not be a boundary block, so-</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                <span class="k">if</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">!=</span> <span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Then the following statement will be executed-</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>                    <span class="n">nCount</span> <span class="o">+=</span> <span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+</pre></div>
+</div>
+<blockquote>
+<div>P.S- If the list at position i &amp; j contains a dead cell i.e array[i][j] = 0
+addition doesn’t cause any issue. If array[i][j] = 1 then nCount will be increased by 1.</div></blockquote>
+<p><img alt="Row6" src="_images/6.png" /></p>
+<p>Now the time for survival/Death-</p>
+<p>If the cell is live, and it has neighbours less than 2, then it will die because of loneliness.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">array</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">y</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">nCount</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
+</pre></div>
+</div>
+<p>If the cell is live, and it has neighbours greater than 3, then it will die because of overpopulation.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">array</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">y</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span> <span class="ow">and</span> <span class="n">nCount</span> <span class="o">&gt;</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">0</span>
+</pre></div>
+</div>
+<p>If the cell is dead, and it has 3 neighbours, then it will take birth according to the rules.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">if</span> <span class="n">array</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">y</span><span class="p">]</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">nCount</span> <span class="o">==</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="k">return</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<p>And if it is none of the above case, then this function will return the same content.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">array</span><span class="p">[</span><span class="n">x</span><span class="p">][</span><span class="n">y</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="GameOfLife.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Functions Explained-</a><ul>
+<li><a class="reference internal" href="#initgrid-rows-cols-array">initGrid(rows, cols, array)</a></li>
+<li><a class="reference internal" href="#printgen-rows-cols-array-genno">printGen(rows, cols, array, genNo):</a></li>
+<li><a class="reference internal" href="#processnextgen-rows-cols-cur-nxt">processNextGen(rows, cols, cur, nxt):</a></li>
+<li><a class="reference internal" href="#processneighbours-x-y-array">processNeighbours(x, y, array):</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Session0.html"
+                        title="previous chapter">A date with Python!</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/GameOfLifeFunctions.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Session0.html" title="A date with Python!"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="GameOfLife.html">Game Of Life 0.0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018, Chandan Kumar.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.5.
+    </div>
+  </body>
+</html>
