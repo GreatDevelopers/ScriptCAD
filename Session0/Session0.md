@@ -31,7 +31,7 @@ Title : Session-0
 
 </div>
 
-# A day with Python!
+# A Date with Python!
 
 ## Introduction:
 
