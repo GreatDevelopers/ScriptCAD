@@ -32,7 +32,7 @@ Title : Session-0
 <div class="w3-dropdown-hover">
 <button class="w3-button">Details</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-<a href="http://gndec.sandcats.io:6080/shared/g4Y3_6NBU3R63B30ITG3RxbEJru1tOWOFZc" class="w3-bar-item w3-button">Presentation</a>
+<a href="http://gndec.sandcats.io:6080/shared/g4Y3_6NBU3R63B30ITG3RxbEJru1tOWOFZc4cNLKNwv" class="w3-bar-item w3-button">Presentation</a>
 <a href="https://lab.gdy.club/~suraj/sphinx/build/html/GameOfLife.html" class="w3-bar-item w3-button">Detailed Information</a>
 </div>
 </div>
