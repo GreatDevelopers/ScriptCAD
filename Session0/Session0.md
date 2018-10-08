@@ -29,6 +29,14 @@ Title : Session-0
 </div>
 </div>
 
+<div class="w3-dropdown-hover">
+<button class="w3-button">Details</button>
+<div class="w3-dropdown-content w3-bar-block w3-card-4">
+<a href="http://gndec.sandcats.io:6080/shared/g4Y3_6NBU3R63B30ITG3RxbEJru1tOWOFZc"class="w3-bar-item w3-button">Presentation</a>
+<a href="https://lab.gdy.club/~suraj/sphinx/build/html/GameOfLife.html"class="w3-bar-item w3-button">Detailed Information</a>
+</div>
+</div>
+
 </div>
 
 # A Date with Python!
@@ -55,5 +63,3 @@ The universe of the Game of Life is an infinite, `two-dimensional` orthogonal gr
 	4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously. The rules continue to be applied repeatedly to create further generations. 
-
-For detailed information [click here](https://lab.gdy.club/~suraj/sphinx/build/html/GameOfLife.html)
