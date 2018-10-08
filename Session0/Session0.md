@@ -52,4 +52,4 @@ The universe of the Game of Life is an infinite, `two-dimensional` orthogonal gr
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed; births and deaths occur simultaneously. The rules continue to be applied repeatedly to create further generations. 
 
-
+For detailed information [click here](https://lab.gdy.club/~suraj/sphinx/build/html/GameOfLife.html)
