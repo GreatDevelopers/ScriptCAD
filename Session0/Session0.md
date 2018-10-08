@@ -1,3 +1,7 @@
+---
+Title : Session-0
+---
+
 <link rel = "stylesheet" href = "style/intro.css">
  
 <link rel = "stylesheet" href = "https://www.w3schools.com/w3css/4/w3.css">
@@ -27,7 +31,7 @@
 
 </div>
 
-# A day with Python!
+# A Date with Python!
 
 ## Introduction:
 
