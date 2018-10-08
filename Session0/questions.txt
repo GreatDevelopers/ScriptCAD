@@ -1,0 +1,13 @@
+Q. What is a Module, library, package, script in python?
+
+Answer- 
+
+A module in python is a .py file that defines one or more function/classes which you intend to reuse in different codes of your program.
+
+A Python package refers to a directory of Python module(s). This feature comes in handy for organizing modules of one type at one place.
+To use the package in a script, you will have to first initialize the package
+You can then import the package
+
+the term script is used to refer to a module whose aim is to be executed. It has the same meaning as "program" or "application", but it is usually used to describe simple and small programs
+
+Library : It is a collection of modules.
