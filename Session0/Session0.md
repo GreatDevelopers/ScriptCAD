@@ -23,16 +23,14 @@ Title : Session-0
 <button class="w3-button">Sessions</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
 <a href="https://greatdevelopers.github.io/ScriptCAD/Session0/Session0.html" class="w3-bar-item w3-button">Session-0</a>
-<!--
-<a href="https://surajdadral.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
--->
+<a href="https://greatdevelopers.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
 </div>
 </div>
 
 <div class="w3-dropdown-hover">
 <button class="w3-button">Details</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-<a href="http://gndec.sandcats.io:6080/shared/g4Y3_6NBU3R63B30ITG3RxbEJru1tOWOFZc4cNLKNwv" class="w3-bar-item w3-button">Presentation</a>
+<a href="http://cln2xdzm649l26znp2bl.gndec.sandcats.io:6080/index.html" class="w3-bar-item w3-button">Presentation</a>
 <a href="https://lab.gdy.club/~suraj/sphinx/build/html/GameOfLife.html" class="w3-bar-item w3-button">Detailed Information</a>
 </div>
 </div>
