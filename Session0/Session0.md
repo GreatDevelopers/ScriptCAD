@@ -13,6 +13,7 @@ Title : Session-0
 <button class="w3-button">Menu</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
 <a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button">Register Here</a>
+<a href="https://groups.google.com/forum/#!forum/greatbim" class="w3-bar-item w3-button">GreatBIM</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/Payment.html" class="w3-bar-item w3-button">Transaction Details</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
@@ -32,6 +33,7 @@ Title : Session-0
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
 <a href="http://cln2xdzm649l26znp2bl.gndec.sandcats.io:6080/index.html" class="w3-bar-item w3-button">Presentation</a>
 <a href="https://lab.gdy.club/~suraj/sphinx/build/html/GameOfLife.html" class="w3-bar-item w3-button">Detailed Information</a>
+<a href="http://guru.gndec.ac.in/course/view.php?id=102" class="w3-bar-item w3-button">Assignment</a>
 </div>
 </div>
 
