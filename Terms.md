@@ -25,9 +25,7 @@ title : Terms & Conditions
 <button class="w3-button">Sessions</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
 <a href="https://greatdevelopers.github.io/ScriptCAD/Session0/Session0.html" class="w3-bar-item w3-button">Session-0</a>
-<!--
-<a href="https://surajdadral.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
--->
+<a href="https://greatdevelopers.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
 </div>
 </div>
 
