@@ -31,6 +31,7 @@ Title : Session-0
 <div class="w3-dropdown-hover">
 <button class="w3-button">Details</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
+<a href="https://github.com/SurajDadral/ScriptCAD/Session0/GameOfLife.zip" class="w3-bar-item w3-button">Download Source Code</a>
 <a href="http://cln2xdzm649l26znp2bl.gndec.sandcats.io:6080/index.html" class="w3-bar-item w3-button">Presentation</a>
 <a href="https://lab.gdy.club/~suraj/sphinx/build/html/GameOfLife.html" class="w3-bar-item w3-button">Detailed Information</a>
 <a href="http://guru.gndec.ac.in/course/view.php?id=102" class="w3-bar-item w3-button">Assignment</a>
