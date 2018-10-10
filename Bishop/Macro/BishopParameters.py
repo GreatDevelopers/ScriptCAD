@@ -1,6 +1,8 @@
-RADIUS = 5
-HEIGHT = 10
+Radius = 20
+Height = 120
+Thickness= 14
 
-RADIUS = int(input(" Enter radius of Bishop's Head : " ))
-HEIGHT = int(input(" Enter height of Bishop's Head : " ))
+Radius = int(input(" Enter radius of Bishop's Head : " ))
+Height = int(input(" Enter height of Bishop's Neck : " ))
+Thicknes = int(input(" Enter thickness of Bishop's Neck : " ))
  
