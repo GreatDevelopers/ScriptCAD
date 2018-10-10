@@ -70,5 +70,29 @@ When we say after course support, we meant to say that we will be helping you ev
 Though the time period for which we provide help depends on your choice of the course.
 Exactly how this help will be provided to you will become clear during the course.
 
+## 6. How to enroll for course on guru.gndec.ac.in?
+
+* If you are GNDEC student, then login into https://guru.gndec.ac.in using your internet access credentials.
+
+* If you are not student of GNDEC, then you can also login as guest.
+
+* Now you will be welcomed with following dialogue box.
+
+![](images/Enroll1.PNG)
+
+* Fill here your complete details.
+
+* Confirmation email will be sent to your email address. Open your mail and click on confirmation link. 
+
+* Now paste this link in your browser https://guru.gndec.ac.in/course/view.php?id=102 
+
+* In administration panel click on "Enroll me in this course" as shown below.
+
+![](images/Enroll2.PNG)
+
+* Enter enrollment key as specified on [Mailing List](https://groups.google.com/forum/#!forum/greatbim)
+
+* Congrats, you are enrolled for course.
+
 
 *For further queries contact 8847351424 or 8198090674*
