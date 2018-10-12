@@ -33,8 +33,8 @@ Title : Session-1
 <div class="w3-dropdown-hover">
 <button class="w3-button">Source Code</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-<a href="https://greatdevelopers.github.io/ScriptCAD/raw/master/Bishop/Fcstd/Chess_Bishop.fcstd" class="w3-bar-item w3-button" target="_blank">Download FreeCAD File</a>
-<a href="https://greatdevelopers.github.io/ScriptCAD/raw/master/Bishop/Macro/Bishop.py" class="w3-bar-item w3-button" target="_blank" download="Bishop.py">Download Macro</a>
+<a href="https://github.com/GreatDevelopers/ScriptCAD/raw/master/Bishop/Fcstd/Chess_Bishop.fcstd" class="w3-bar-item w3-button" target="_blank">Download FreeCAD File</a>
+<a href="https://github.com/GreatDevelopers/ScriptCAD/raw/master/Bishop/Macro/Bishop.py" class="w3-bar-item w3-button" target="_blank" download="Bishop.py">Download Macro</a>
 </div>
 </div>
 
