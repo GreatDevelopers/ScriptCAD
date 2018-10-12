@@ -1,7 +1,3 @@
----
-Permalink : README.html
----
-
 <link rel = "stylesheet" href = "style/intro.css">
 
 <link rel = "stylesheet" href = "https://www.w3schools.com/w3css/4/w3.css">
@@ -16,7 +12,6 @@ Permalink : README.html
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
 <a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button" target="_blank">Register Here</a>
 <a href="https://groups.google.com/forum/#!forum/greatbim" class="w3-bar-item w3-button" target="_blank">Mailing List</a>
-<a href="http://guru.gndec.ac.in/course/view.php?id=102" class="w3-bar-item w3-button" target="_blank">Assignments</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/Payment.html" class="w3-bar-item w3-button">Transaction Details</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
@@ -39,8 +34,6 @@ Permalink : README.html
 <a href="https://goo.gl/forms/szaolI3IFPIzWr2F3" class="w3-bar-item w3-button" target="_blank">Session-1</a>
 </div>
 </div>
-
-<a href="https://greatdevelopers.github.io/ScriptCAD/Creators.html" class="w3-bar-item w3-button">Creators</a>
 
 </div>
 
