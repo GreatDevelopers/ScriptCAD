@@ -1,5 +1,5 @@
 ---
-Permalink : ScriptCAD.html
+Permalink : README.html
 ---
 
 <link rel = "stylesheet" href = "style/intro.css">
