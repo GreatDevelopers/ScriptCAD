@@ -1,5 +1,5 @@
 ---
-Permalink : ScriptCAD
+Permalink : ScriptCAD.html
 ---
 
 <link rel = "stylesheet" href = "style/intro.css">
