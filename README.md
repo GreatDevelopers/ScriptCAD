@@ -13,6 +13,7 @@
 <a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button" target="_blank">Register Here</a>
 <a href="https://groups.google.com/forum/#!forum/greatbim" class="w3-bar-item w3-button" target="_blank">Mailing List</a>
 <a href="http://guru.gndec.ac.in/course/view.php?id=102" class="w3-bar-item w3-button" target="_blank">Assignments</a>
+<a href="https://github.com/greatdevelopers/ScriptCAD/raw/master/Session3/building.zip" class="w3-bar-item w3-button" target="_blank">Download Building.py</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/Payment.html" class="w3-bar-item w3-button">Transaction Details</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
 <a href="https://greatdevelopers.github.io/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
