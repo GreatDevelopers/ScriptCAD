@@ -1,5 +1,5 @@
 ---
-Title : Payment notice
+Title : Session-2
 ---
 
 <link rel = "stylesheet" href = "style/intro.css">
@@ -34,23 +34,34 @@ Title : Payment notice
 
 </div>
 
-#  Payment notice
+# Macro
 
-* **Last date for Registration**: Sunday 12:00 PM (07-10-2018)
-* **Last date for fee deposit is**: Monday 12:00 PM (08-10-2018)
+## Definition
 
-## Modes of Payment:
-1. **Offline**: To confirm your successful registration, pay fee at Office of Testing and Consultancy Cell (TCC) to Mr. Bhagwant Singh or Ms Kirandeep Kaur.
-1. **Online**: Bank transfer is possible. Details for bank transfer are given below.
+In reference to computers, a macro (which stands for "macroinstruction") is a programmable pattern which translates 
+a certain sequence of input into a preset sequence of output. 
+Macros can be used to make tasks less repetitive by representing a complicated sequence of keystrokes, 
+mouse movements, commands, or other types of input.
 
-**Name of Account Holder**: Principal, Guru Nanak Dev Engg. College, Ludhiana
+In computer programming, macros are a tool which allow a developer to re-use code.
 
-**Name of Bank**: Panjab & Sind Bank, Guru Nanak Dev Engg. College, Ludhiana
+## Macros in FreeCAD
 
-**Branch**: Gill, Ludhiana
+While it looks easier to use the GUI to create 3D objects in FreeCAD, 
+the process becomes time consuming and tedious when the object is complex and of repetitive nature.
+Macros are a convenient way to create complex actions in FreeCAD. 
+You simply record actions as you do them, then save that under a name, and replay them whenever you want. 
+Since macros are in reality a list of python commands, you can also edit them, and create very complex scripts.
 
-**Type of Account**: Saving Bank Account
+### How it works
 
-**Online Account No.**: 002110000 50652
+If you enable console output (Menu Edit -> Preferences -> General -> Macros -> Show scripts commands in python console), 
+you will see that in FreeCAD, every action you do, such as pressing a button, outputs a python command. 
+Those commands are what can be recorded in a macro. The main tool for making macros is the macros toolbar:
 
-**IFC Code No.**: PSID0000021
+![Macro Toolbar](https://www.freecadweb.org/wiki/images/0/09/Macros_toolbar.jpg)
+
+On it you have 4 buttons: Record, stop recording, edit and play the current macro.
+
+It is very simple to use: Press the record button, you will be asked to give a name to your macro, then perform some actions. 
+When you are done, click the stop recording button, and your actions will be saved.
