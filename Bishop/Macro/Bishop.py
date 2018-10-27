@@ -3,7 +3,7 @@
 #rest collar of tha bishop is not ready yet.
 
 
-import FreeCAD
+import FreeCAD as App
 import Part
 
 
@@ -21,7 +21,7 @@ App.ActiveDocument.addObject("Part::Sphere","Sphere")
 App.ActiveDocument.ActiveObject.Label = "Sphere"
 App.ActiveDocument.recompute()
 #providing the radius
-FreeCAD.getDocument("Unnamed").getObject("Sphere").Radius = R
+App.ActiveDocument.getObject("Sphere").Radius = R
 
 
 #creation of cone
@@ -29,11 +29,11 @@ App.ActiveDocument.addObject("Part::Cone","Cone")
 App.ActiveDocument.ActiveObject.Label = "Cone"
 App.ActiveDocument.recompute()
 #providing the dimensions to the cone
-FreeCAD.getDocument("Unnamed").getObject("Cone").Height = 1.5*R 
-FreeCAD.getDocument("Unnamed").getObject("Cone").Radius2 = '0 mm'
-FreeCAD.getDocument("Unnamed").getObject("Cone").Radius1 = R*0.866
+App.ActiveDocument.getObject("Cone").Height = 1.5*R 
+App.ActiveDocument.getObject("Cone").Radius2 = '0 mm'
+App.ActiveDocument.getObject("Cone").Radius1 = R*0.866
 #placement of cone
-App.getDocument("Unnamed").Cone.Placement=App.Placement(App.Vector(0,0,R*0.5), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+App.activeDocument().Cone.Placement=App.Placement(App.Vector(0,0,R*0.5), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
 
 #--------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -50,9 +50,9 @@ App.ActiveDocument.addObject("Part::Sphere","Sphere")
 App.ActiveDocument.ActiveObject.Label = "Sphere"
 App.ActiveDocument.recompute()
 #dimensioning
-FreeCAD.getDocument("Unnamed").getObject("Sphere001").Radius = 0.25*R
+App.ActiveDocument.getObject("Sphere001").Radius = 0.25*R
 #placement
-App.getDocument("Unnamed").Sphere001.Placement=App.Placement(App.Vector(0,0,2*R), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+App.activeDocument().Sphere001.Placement=App.Placement(App.Vector(0,0,2*R), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
 
 #fusion(union) of "Joker nose" and "water drop" shapes 
 App.activeDocument().addObject("Part::Fuse","Fusion001")
@@ -66,11 +66,11 @@ App.ActiveDocument.addObject("Part::Cone","Cone")
 App.ActiveDocument.ActiveObject.Label = "Cone"
 App.ActiveDocument.recompute()
 #dimensioning
-FreeCAD.getDocument("Unnamed").getObject("Cone001").Radius1 = W*1.3
-FreeCAD.getDocument("Unnamed").getObject("Cone001").Radius2 = W*0.7
-FreeCAD.getDocument("Unnamed").getObject("Cone001").Height = H
+App.ActiveDocument.getObject("Cone001").Radius1 = W*1.3
+App.ActiveDocument.getObject("Cone001").Radius2 = W*0.7
+App.ActiveDocument.getObject("Cone001").Height = H
 #placement of the neck
-App.getDocument("Unnamed").Cone001.Placement=App.Placement(App.Vector(0,0,-H), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+App.activeDocument().Cone001.Placement=App.Placement(App.Vector(0,0,-H), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
 
 #-------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -80,11 +80,11 @@ App.ActiveDocument.addObject("Part::Cone","Cone")
 App.ActiveDocument.ActiveObject.Label = "Cone"
 App.ActiveDocument.recompute()
 #dimensioning
-FreeCAD.getDocument("Unnamed").getObject("Cone002").Radius1 = W*2.3
-FreeCAD.getDocument("Unnamed").getObject("Cone002").Radius2 = W*1.7
-FreeCAD.getDocument("Unnamed").getObject("Cone002").Height = H*0.17
+App.ActiveDocument.getObject("Cone002").Radius1 = W*2.3
+App.ActiveDocument.getObject("Cone002").Radius2 = W*1.7
+App.ActiveDocument.getObject("Cone002").Height = H*0.17
 #placement
-App.getDocument("Unnamed").Cone002.Placement=App.Placement(App.Vector(0,0,-H), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+App.activeDocument().Cone002.Placement=App.Placement(App.Vector(0,0,-H), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
 
 #------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -100,20 +100,20 @@ App.ActiveDocument.addObject("Part::Cone","Cone")
 App.ActiveDocument.ActiveObject.Label = "Cone"
 App.ActiveDocument.recompute()
 #dimensioning
-FreeCAD.getDocument("Unnamed").getObject("Cone003").Radius1 = W*1.4
-FreeCAD.getDocument("Unnamed").getObject("Cone003").Radius2 = W*0.9
-FreeCAD.getDocument("Unnamed").getObject("Cone003").Height = H*0.03
-App.getDocument("Unnamed").Cone003.Placement=App.Placement(App.Vector(0,0,-H*0.25), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
+App.ActiveDocument.getObject("Cone003").Radius1 = W*1.4
+App.ActiveDocument.getObject("Cone003").Radius2 = W*0.9
+App.ActiveDocument.getObject("Cone003").Height = H*0.03
+App.activeDocument().Cone003.Placement=App.Placement(App.Vector(0,0,-H*0.25), App.Rotation(App.Vector(0,0,1),0), App.Vector(0,0,0))
 #cone2
 App.ActiveDocument.addObject("Part::Cone","Cone")
 App.ActiveDocument.ActiveObject.Label = "Cone"
 App.ActiveDocument.recompute()
 #dimensioning
-FreeCAD.getDocument("Unnamed").getObject("Cone004").Radius1 = W*1.4
-FreeCAD.getDocument("Unnamed").getObject("Cone004").Radius2 = W*0.9
-FreeCAD.getDocument("Unnamed").getObject("Cone004").Height = H*0.013
+App.ActiveDocument.getObject("Cone004").Radius1 = W*1.4
+App.ActiveDocument.getObject("Cone004").Radius2 = W*0.9
+App.ActiveDocument.getObject("Cone004").Height = H*0.013
 #placement
-App.getDocument("Unnamed").Cone004.Placement=App.Placement(App.Vector(0,0,-H*0.25), App.Rotation(App.Vector(1,0,0),180), App.Vector(0,0,0))
+App.activeDocument().Cone004.Placement=App.Placement(App.Vector(0,0,-H*0.25), App.Rotation(App.Vector(1,0,0),180), App.Vector(0,0,0))
 #fusion(union) upper cone and downward cone
 App.activeDocument().addObject("Part::Fuse","Fusion003")
 App.activeDocument().Fusion003.Base = App.activeDocument().Cone003
@@ -138,11 +138,11 @@ App.ActiveDocument.addObject("Part::Box","Box")
 App.ActiveDocument.ActiveObject.Label = "Cube"
 App.ActiveDocument.recompute()
 #dimensioning
-FreeCAD.getDocument("Unnamed").getObject("Box").Length = R*2
-FreeCAD.getDocument("Unnamed").getObject("Box").Width = R*0.25
-FreeCAD.getDocument("Unnamed").getObject("Box").Height = R*2
+App.ActiveDocument.getObject("Box").Length = R*2
+App.ActiveDocument.getObject("Box").Width = R*0.25
+App.ActiveDocument.getObject("Box").Height = R*2
 #placement
-App.getDocument("Unnamed").Box.Placement=App.Placement(App.Vector(-R,0,0), App.Rotation(App.Vector(1,0,0),45), App.Vector(0,0,0))
+App.activeDocument().Box.Placement=App.Placement(App.Vector(-R,0,0), App.Rotation(App.Vector(1,0,0),45), App.Vector(0,0,0))
 
 ##cut (difference) cuboid and the raw bishop-------------------------------------------------------------------------------------------------------------
 App.activeDocument().addObject("Part::Cut","Cut")
