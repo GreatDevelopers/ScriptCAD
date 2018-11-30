@@ -5,7 +5,7 @@
 <div markdown="1" class="page">
 
 <div class="w3-bar w3-light-grey">
-<a href="https://greatdevelopers.github.io/ScriptCAD" class="w3-bar-item w3-button">Home</a>
+<a href="/ScriptCAD" class="w3-bar-item w3-button">Home</a>
 <a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button" target="_blank">Register Here</a>
 <div class="w3-dropdown-hover">
 <button class="w3-button">Menu</button>
