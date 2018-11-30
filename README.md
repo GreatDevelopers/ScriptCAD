@@ -13,19 +13,19 @@
 <a href="https://goo.gl/forms/YeDk8IqOeDLKQOtB2" class="w3-bar-item w3-button" target="_blank">Register Here</a>
 <a href="https://groups.google.com/forum/#!forum/greatbim" class="w3-bar-item w3-button" target="_blank">Mailing List</a>
 <a href="http://guru.gndec.ac.in/course/view.php?id=102" class="w3-bar-item w3-button" target="_blank">Assignments</a>
-<a href="https://github.com/greatdevelopers/ScriptCAD/raw/master/Session3/building.zip" class="w3-bar-item w3-button" target="_blank">Download Building.py</a>
-<a href="https://greatdevelopers.github.io/ScriptCAD/Payment.html" class="w3-bar-item w3-button">Transaction Details</a>
-<a href="https://greatdevelopers.github.io/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
-<a href="https://greatdevelopers.github.io/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
+<a href="/ScriptCAD/raw/master/Session3/building.zip" class="w3-bar-item w3-button" target="_blank">Download Building.py</a>
+<a href="/ScriptCAD/Payment.html" class="w3-bar-item w3-button">Transaction Details</a>
+<a href="/ScriptCAD/FAQ.html" class="w3-bar-item w3-button">FAQs</a>
+<a href="/ScriptCAD/Terms.html" class="w3-bar-item w3-button">Terms & Conditions</a>
 </div>
 </div>
 
 <div class="w3-dropdown-hover">
 <button class="w3-button">Sessions</button>
 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-<a href="https://greatdevelopers.github.io/ScriptCAD/Session0/Session0.html" class="w3-bar-item w3-button">Session-0</a>
-<a href="https://greatdevelopers.github.io/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
-<a href="https://greatdevelopers.github.io/ScriptCAD/Session2.html" class="w3-bar-item w3-button">Session-2</a>
+<a href="/ScriptCAD/Session0/Session0.html" class="w3-bar-item w3-button">Session-0</a>
+<a href="/ScriptCAD/Bishop_Tutorial.html" class="w3-bar-item w3-button">Session-1</a>
+<a href="/ScriptCAD/Session2.html" class="w3-bar-item w3-button">Session-2</a>
 </div>
 </div>
 
@@ -38,7 +38,7 @@
 </div>
 </div>
 
-<a href="https://greatdevelopers.github.io/ScriptCAD/Creators.html" class="w3-bar-item w3-button">Creators</a>
+<a href="/ScriptCAD/Creators.html" class="w3-bar-item w3-button">Creators</a>
 
 </div>
 
