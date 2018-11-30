@@ -12,6 +12,8 @@ nextGen = copy.deepcopy(thisGen)
 
 printGen(ROWS, COLS, thisGen, 0)
 
+input()
+
 for gens in range(1, GENERATIONS):
     processNextGen(ROWS, COLS, thisGen, nextGen)
     printGen(ROWS, COLS, nextGen, gens)
